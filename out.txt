@@ -1,0 +1,1413 @@
+[INFO] [launch]: All log files can be found below /home/robot/.ros/log/2024-05-08-13-49-56-840987-robot-desktop-2391
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_state_publisher-1]: process started with pid [2395]
+[robot_state_publisher-1] [INFO] [1715165398.486338784] [robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-1] [INFO] [1715165398.486674044] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-1] [INFO] [1715165398.486731322] [robot_state_publisher]: got segment caster_wheel_link
+[robot_state_publisher-1] [INFO] [1715165398.486767026] [robot_state_publisher]: got segment chasis
+[robot_state_publisher-1] [INFO] [1715165398.486795508] [robot_state_publisher]: got segment left_wheel
+[robot_state_publisher-1] [INFO] [1715165398.486822452] [robot_state_publisher]: got segment lidar_link
+[robot_state_publisher-1] [INFO] [1715165398.486850804] [robot_state_publisher]: got segment motor_mount_left
+[robot_state_publisher-1] [INFO] [1715165398.486879008] [robot_state_publisher]: got segment motor_mount_right
+[robot_state_publisher-1] [INFO] [1715165398.486906749] [robot_state_publisher]: got segment range_sensor_center_link
+[robot_state_publisher-1] [INFO] [1715165398.486934175] [robot_state_publisher]: got segment range_sensor_left_link
+[robot_state_publisher-1] [INFO] [1715165398.486960619] [robot_state_publisher]: got segment range_sensor_right_link
+[robot_state_publisher-1] [INFO] [1715165398.486987267] [robot_state_publisher]: got segment right_wheel
+[robot_state_publisher-1] [INFO] [1715165398.487013490] [robot_state_publisher]: got segment roof_link
+[INFO] [ros2_control_node-2]: process started with pid [2409]
+[INFO] [ekf_node-3]: process started with pid [2411]
+[INFO] [spawner-4]: process started with pid [2413]
+[INFO] [spawner-5]: process started with pid [2415]
+[INFO] [spawner-6]: process started with pid [2417]
+[INFO] [spawner-7]: process started with pid [2421]
+[INFO] [spawner-8]: process started with pid [2423]
+[INFO] [spawner-9]: process started with pid [2427]
+[ros2_control_node-2] [INFO] [1715165402.251862541] [controller_manager]: Subscribing to '/robot_description' topic for robot description.
+[ros2_control_node-2] [INFO] [1715165402.252550857] [controller_manager]: update rate is 30 Hz
+[ros2_control_node-2] [INFO] [1715165402.261983418] [controller_manager]: RT kernel is recommended for better performance
+[ros2_control_node-2] [INFO] [1715165402.282609675] [controller_manager]: Received robot description from topic.
+[ros2_control_node-2] [INFO] [1715165402.283731030] [resource_manager]: Loading hardware 'RealRobot' 
+[ros2_control_node-2] [INFO] [1715165402.294326853] [resource_manager]: Initialize hardware 'RealRobot' 
+[ros2_control_node-2] [INFO] [1715165402.295478189] [ezmower_hardware]: Starting initialization...
+[ros2_control_node-2] [INFO] [1715165402.296774248] [ezmower_hardware]: initializatied the ezmower hardware
+[ros2_control_node-2] [INFO] [1715165402.296859304] [resource_manager]: Successful initialization of hardware 'RealRobot'
+[ros2_control_node-2] [INFO] [1715165402.296891063] [ezmower_hardware]: Exporting state interfaces.
+[ros2_control_node-2] [INFO] [1715165402.297243620] [ezmower_hardware]: Exporting command interfaces.
+[ros2_control_node-2] [INFO] [1715165402.301934206] [resource_manager]: 'configure' hardware 'RealRobot' 
+[ros2_control_node-2] [INFO] [1715165402.302066725] [ezmower_hardware]: Starting configuration...
+[ros2_control_node-2] [INFO] [1715165402.329383184] [ezmower_hardware]: Connected for the first time to ESP32.
+[ros2_control_node-2] [INFO] [1715165402.329498721] [resource_manager]: Successful 'configure' of hardware 'RealRobot'
+[ros2_control_node-2] [INFO] [1715165402.329546629] [resource_manager]: 'activate' hardware 'RealRobot' 
+[ros2_control_node-2] [INFO] [1715165402.329631684] [ezmower_hardware]: Starting activate...
+[ros2_control_node-2] [INFO] [1715165402.329656129] [resource_manager]: Successful 'activate' of hardware 'RealRobot'
+[ros2_control_node-2] [WARN] [1715165402.366889669] [ezmower_hardware]: )澡�>�Z��#### 
+[ros2_control_node-2] [ERROR] [1715165402.367424207] [ezmower_hardware]: [Serial Driver] ERROR : Invalid packet arrived with out of buffer iterators.
+[ros2_control_node-2] [WARN] [1715165402.396456430] [ezmower_hardware]: �#### 
+[ros2_control_node-2] [WARN] [1715165402.430099016] [ezmower_hardware]: �)�?#### 
+[ros2_control_node-2] [WARN] [1715165402.464862475] [ezmower_hardware]: 0��?#### 
+[ros2_control_node-2] [WARN] [1715165402.498011523] [ezmower_hardware]: ?Њ���>@��<#### 
+[ros2_control_node-2] [WARN] [1715165402.530040531] [ezmower_hardware]: ? 
+[ros2_control_node-2] [WARN] [1715165402.566051716] [ezmower_hardware]: ��@��1u?��c>(Ï>ą�#### 
+[ros2_control_node-2] [WARN] [1715165402.596393108] [ezmower_hardware]: �&G�?�$�8������>/���#### 
+[ros2_control_node-2] [WARN] [1715165402.630043324] [ezmower_hardware]: ?<M�N��>�j�#### 
+[ros2_control_node-2] [WARN] [1715165402.666215083] [ezmower_hardware]: �8���>����#### 
+[ros2_control_node-2] [WARN] [1715165402.697948831] [ezmower_hardware]: 
+[ros2_control_node-2] <��>��۽#### 
+[ros2_control_node-2] [WARN] [1715165402.730044877] [ezmower_hardware]: ��S�?c��l�#��?�z,�#### 
+[ros2_control_node-2] [WARN] [1715165402.766257969] [ezmower_hardware]: �#### 
+[ros2_control_node-2] [WARN] [1715165402.797675050] [ezmower_hardware]: ## 
+[ros2_control_node-2] [WARN] [1715165402.830041633] [ezmower_hardware]: ɽ(Ï>����#### 
+[ros2_control_node-2] [WARN] [1715165402.866041651] [ezmower_hardware]: �
+[ros2_control_node-2] �?�xѼhq���>���#### 
+[ros2_control_node-2] [WARN] [1715165402.898068492] [ezmower_hardware]: �?���Y��$f�SfϾ#### 
+[ros2_control_node-2] [WARN] [1715165402.930044926] [ezmower_hardware]: ## 
+[ros2_control_node-2] [WARN] [1715165402.966032740] [ezmower_hardware]: ��E*>
+[ros2_control_node-2] ��>#### 
+[ros2_control_node-2] [WARN] [1715165402.998044433] [ezmower_hardware]: ;?.�#### 
+[ros2_control_node-2] [WARN] [1715165403.029502736] [ezmower_hardware]: �?�;ݼ�3C��2�>�}˾#### 
+[ros2_control_node-2] [WARN] [1715165403.066041311] [ezmower_hardware]: ## 
+[ros2_control_node-2] [WARN] [1715165403.098016356] [ezmower_hardware]: 
+[ros2_control_node-2] [WARN] [1715165403.130043790] [ezmower_hardware]: �h>�#��#### 
+[ros2_control_node-2] [WARN] [1715165403.166201383] [ezmower_hardware]: �?�ӿ����'��>�#��#### 
+[ros2_control_node-2] [WARN] [1715165403.196105737] [ezmower_hardware]: �BxD��@��>�=�#### 
+[ros2_control_node-2] [WARN] [1715165403.230097324] [ezmower_hardware]: �?�Vz�س��gc�>-��#### 
+[ros2_control_node-2] [WARN] [1715165403.262763093] [ezmower_hardware]: �>_d��#### 
+[ros2_control_node-2] [WARN] [1715165403.298082109] [ezmower_hardware]: Ys=ą�#### 
+[ros2_control_node-2] [WARN] [1715165403.330153803] [ezmower_hardware]: ��B�Dy�F�=��z�#### 
+[ros2_control_node-2] [WARN] [1715165403.366068543] [ezmower_hardware]: 
+[ros2_control_node-2] [WARN] [1715165403.398042680] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165403.430052707] [ezmower_hardware]: ���#### 
+[ros2_control_node-2] [WARN] [1715165403.466094466] [ezmower_hardware]: �B�[��N��>.]K�#### 
+[ros2_control_node-2] [WARN] [1715165403.498077696] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165403.530152056] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165403.566049685] [ezmower_hardware]: e�#### 
+[ros2_control_node-2] [WARN] [1715165403.598070822] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165403.630060571] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165403.666049293] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165403.698094930] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165403.730064012] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165403.766031197] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165403.798092298] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165403.830082842] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165403.866060953] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165403.898150128] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165403.930061302] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165403.966091765] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165403.998023532] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165404.030118262] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165404.066125929] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165404.098279455] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165404.129475276] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165404.166074185] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165404.198112211] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165404.230455775] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165404.263261934] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165404.296707667] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165404.330201438] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165404.366058660] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165404.405358705] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165404.434101001] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165404.466058360] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165404.498445795] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165404.529720079] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165404.563433851] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165404.598017439] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165404.630624152] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165404.663638496] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165404.698634549] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165404.734221677] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165404.764092864] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165404.798070063] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165404.830069941] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165404.863163396] [ezmower_hardware]:  
+[ros2_control_node-2] [INFO] [1715165404.889412297] [controller_manager]: Loading controller 'imu_broadcaster'
+[ros2_control_node-2] [WARN] [1715165404.896282592] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165404.932019184] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165404.965628233] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165404.996237515] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165405.033375406] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165405.062948500] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165405.097238718] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165405.132735420] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165405.166828341] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165405.196020415] [ezmower_hardware]: 
+[ros2_control_node-2] [WARN] [1715165405.229349815] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165405.262722568] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165405.296037783] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165405.330062481] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165405.366538204] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165405.398407786] [ezmower_hardware]: E�?�)�?�)�?#### 
+[ros2_control_node-2] [WARN] [1715165405.430430182] [ezmower_hardware]: 
+[ros2_control_node-2] [WARN] [1715165405.463184914] [ezmower_hardware]: 
+[ros2_control_node-2] [WARN] [1715165405.496071999] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165405.530247957] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165405.562871022] [ezmower_hardware]: 
+[ros2_control_node-2] [WARN] [1715165405.597159184] [ezmower_hardware]: 
+[ros2_control_node-2] [WARN] [1715165405.632201421] [ezmower_hardware]: E�?�)�?�)�?#### 
+[ros2_control_node-2] [WARN] [1715165405.663917188] [ezmower_hardware]: _ق�
+[ros2_control_node-2] [WARN] [1715165405.698473776] [ezmower_hardware]: ### 
+[ros2_control_node-2] [WARN] [1715165405.729417874] [ezmower_hardware]: :ڂ�
+[ros2_control_node-2] [WARN] [1715165405.763370443] [ezmower_hardware]: ���2(@@��?#### 
+[ros2_control_node-2] [INFO] [1715165405.769661829] [controller_manager]: Loading controller 'range_sensor_broadcaster_right'
+[spawner-4] [INFO] [1715165405.772590318] [spawner_imu_broadcaster]: [94mLoaded [1mimu_broadcaster[0m
+[ros2_control_node-2] [WARN] [1715165405.796700343] [ezmower_hardware]: ### 
+[ros2_control_node-2] [WARN] [1715165405.830334873] [ezmower_hardware]: ### 
+[ros2_control_node-2] [WARN] [1715165405.863345606] [ezmower_hardware]: ��
+[ros2_control_node-2] [WARN] [1715165405.898137251] [ezmower_hardware]: ނv?�:��U0>
+[ros2_control_node-2] [WARN] [1715165405.930187055] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165405.962767194] [ezmower_hardware]: �px>�z,�#### 
+[ros2_control_node-2] [WARN] [1715165405.995985909] [ezmower_hardware]: ӂVw?(�¾�-?a9��#### 
+[ros2_control_node-2] [INFO] [1715165406.002708111] [controller_manager]: Configuring controller 'imu_broadcaster'
+[ros2_control_node-2] [WARN] [1715165406.029423439] [ezmower_hardware]: ��>��z�#### 
+[ros2_control_node-2] [WARN] [1715165406.062811654] [ezmower_hardware]: �
+[ros2_control_node-2] [WARN] [1715165406.096119536] [ezmower_hardware]: �px>��۽#### 
+[spawner-4] [INFO] [1715165406.109401755] [spawner_imu_broadcaster]: [92mConfigured and activated [1mimu_broadcaster[0m
+[ros2_control_node-2] [INFO] [1715165406.111948558] [controller_manager]: Loading controller 'joint_broadcaster'
+[ros2_control_node-2] [WARN] [1715165406.132230610] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165406.167028606] [ezmower_hardware]: 
+[ros2_control_node-2] [WARN] [1715165406.196068773] [ezmower_hardware]: $�#### 
+[ros2_control_node-2] [WARN] [1715165406.229372266] [ezmower_hardware]: ?Pټ�5��K�>a9��#### 
+[ros2_control_node-2] [WARN] [1715165406.266549954] [ezmower_hardware]: iu��H��� �A>,a[�#### 
+[spawner-5] [INFO] [1715165406.277168536] [spawner_range_sensor_broadcaster_right]: [94mLoaded [1mrange_sensor_broadcaster_right[0m
+[ros2_control_node-2] [WARN] [1715165406.296758790] [ezmower_hardware]: �;#### 
+[ros2_control_node-2] [WARN] [1715165406.329741467] [ezmower_hardware]: >^k�#### 
+[ros2_control_node-2] [INFO] [1715165406.346302584] [controller_manager]: Configuring controller 'range_sensor_broadcaster_right'
+[ros2_control_node-2] [WARN] [1715165406.362973441] [ezmower_hardware]: >�z,�#### 
+[ros2_control_node-2] [WARN] [1715165406.398012735] [ezmower_hardware]: 
+[ros2_control_node-2] [WARN] [1715165406.429287593] [ezmower_hardware]: [�#### 
+[ros2_control_node-2] [INFO] [1715165406.431807692] [controller_manager]: Loading controller 'range_sensor_broadcaster_left'
+[spawner-5] [INFO] [1715165406.441832921] [spawner_range_sensor_broadcaster_right]: [92mConfigured and activated [1mrange_sensor_broadcaster_right[0m
+[ros2_control_node-2] [WARN] [1715165406.469630104] [ezmower_hardware]: 
+[ros2_control_node-2] [WARN] [1715165406.496348135] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165406.532306709] [ezmower_hardware]: �psq��5�=a9��#### 
+[INFO] [spawner-4]: process has finished cleanly [pid 2413]
+[ros2_control_node-2] [WARN] [1715165406.563098324] [ezmower_hardware]: ����|�>z�$�#### 
+[spawner-8] [INFO] [1715165406.574929318] [spawner_joint_broadcaster]: [94mLoaded [1mjoint_broadcaster[0m
+[ros2_control_node-2] [WARN] [1715165406.596102316] [ezmower_hardware]: Ǿ#### 
+[ros2_control_node-2] [INFO] [1715165406.600609254] [controller_manager]: Configuring controller 'joint_broadcaster'
+[ros2_control_node-2] [INFO] [1715165406.600878088] [joint_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[ros2_control_node-2] [WARN] [1715165406.631220684] [ezmower_hardware]: r�#### 
+[ros2_control_node-2] [WARN] [1715165406.662810302] [ezmower_hardware]: ����h>�}˾#### 
+[ros2_control_node-2] [WARN] [1715165406.696363925] [ezmower_hardware]: �#### 
+[ros2_control_node-2] [WARN] [1715165406.729763251] [ezmower_hardware]: �B�V�B"͋BЊ����>!Ŀ�#### 
+[ros2_control_node-2] [INFO] [1715165406.736737491] [controller_manager]: Loading controller 'range_sensor_broadcaster_center'
+[spawner-8] [INFO] [1715165406.742559617] [spawner_joint_broadcaster]: [92mConfigured and activated [1mjoint_broadcaster[0m
+[ros2_control_node-2] [WARN] [1715165406.762966781] [ezmower_hardware]: �Bu�B�΋B$|��E*>J�#### 
+[ros2_control_node-2] [WARN] [1715165406.796463644] [ezmower_hardware]: �By[�BB�B��ƾL7�����#### 
+[spawner-7] [INFO] [1715165406.798529446] [spawner_range_sensor_broadcaster_left]: [94mLoaded [1mrange_sensor_broadcaster_left[0m
+[ros2_control_node-2] [WARN] [1715165406.830443083] [ezmower_hardware]: W���h>�߾#### 
+[ros2_control_node-2] [WARN] [1715165406.863718761] [ezmower_hardware]: ### 
+[ros2_control_node-2] [WARN] [1715165406.896825179] [ezmower_hardware]: ### 
+[ros2_control_node-2] [INFO] [1715165406.904494680] [controller_manager]: Configuring controller 'range_sensor_broadcaster_left'
+[ros2_control_node-2] [WARN] [1715165406.929295559] [ezmower_hardware]: ### 
+[ros2_control_node-2] [INFO] [1715165406.936232780] [controller_manager]: Loading controller 'mobile_base_controller'
+[ros2_control_node-2] [WARN] [1715165406.964429278] [ezmower_hardware]: ### 
+[ros2_control_node-2] [WARN] [1715165406.996624694] [ezmower_hardware]:  
+[INFO] [spawner-5]: process has finished cleanly [pid 2415]
+[ros2_control_node-2] [WARN] [1715165407.029373371] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165407.063178920] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165407.098330862] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165407.130002128] [ezmower_hardware]:  
+[spawner-6] [INFO] [1715165407.160698948] [spawner_range_sensor_broadcaster_center]: [94mLoaded [1mrange_sensor_broadcaster_center[0m
+[ros2_control_node-2] [WARN] [1715165407.165193367] [ezmower_hardware]:  
+[ros2_control_node-2] [INFO] [1715165407.175127559] [controller_manager]: Configuring controller 'range_sensor_broadcaster_center'
+[ros2_control_node-2] [WARN] [1715165407.197908913] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165407.229305438] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165407.262605116] [ezmower_hardware]:  
+[spawner-7] [INFO] [1715165407.269263504] [spawner_range_sensor_broadcaster_left]: [92mConfigured and activated [1mrange_sensor_broadcaster_left[0m
+[INFO] [spawner-8]: process has finished cleanly [pid 2423]
+[ros2_control_node-2] [WARN] [1715165407.296255110] [ezmower_hardware]:  
+[spawner-9] [INFO] [1715165407.320882747] [spawner_mobile_base_controller]: [94mLoaded [1mmobile_base_controller[0m
+[ros2_control_node-2] [WARN] [1715165407.330177363] [ezmower_hardware]:  
+[ros2_control_node-2] [INFO] [1715165407.336876047] [controller_manager]: Configuring controller 'mobile_base_controller'
+[spawner-6] [INFO] [1715165407.344588956] [spawner_range_sensor_broadcaster_center]: [92mConfigured and activated [1mrange_sensor_broadcaster_center[0m
+[ros2_control_node-2] [WARN] [1715165407.362976058] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165407.374532477] [mobile_base_controller]: Can't accept new commands. subscriber is inactive
+[ros2_control_node-2] [WARN] [1715165407.379847768] [mobile_base_controller]: Can't accept new commands. subscriber is inactive
+[ros2_control_node-2] [WARN] [1715165407.388619661] [mobile_base_controller]: Can't accept new commands. subscriber is inactive
+[ros2_control_node-2] [WARN] [1715165407.396607367] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165407.397497332] [mobile_base_controller]: Can't accept new commands. subscriber is inactive
+[ros2_control_node-2] [WARN] [1715165407.407189209] [mobile_base_controller]: Can't accept new commands. subscriber is inactive
+[ros2_control_node-2] [WARN] [1715165407.411845480] [mobile_base_controller]: Can't accept new commands. subscriber is inactive
+[ros2_control_node-2] [WARN] [1715165407.422810749] [mobile_base_controller]: Can't accept new commands. subscriber is inactive
+[ros2_control_node-2] [WARN] [1715165407.429719415] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165407.434590538] [mobile_base_controller]: Can't accept new commands. subscriber is inactive
+[ros2_control_node-2] [WARN] [1715165407.437841287] [mobile_base_controller]: Can't accept new commands. subscriber is inactive
+[ros2_control_node-2] [WARN] [1715165407.445736548] [mobile_base_controller]: Can't accept new commands. subscriber is inactive
+[ros2_control_node-2] [WARN] [1715165407.451857342] [mobile_base_controller]: Can't accept new commands. subscriber is inactive
+[ros2_control_node-2] [WARN] [1715165407.463029278] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165407.475123086] [mobile_base_controller]: Can't accept new commands. subscriber is inactive
+[ros2_control_node-2] [WARN] [1715165407.484886149] [mobile_base_controller]: Can't accept new commands. subscriber is inactive
+[ros2_control_node-2] [WARN] [1715165407.488294509] [mobile_base_controller]: Can't accept new commands. subscriber is inactive
+[ros2_control_node-2] [WARN] [1715165407.496207196] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165407.500615096] [mobile_base_controller]: Can't accept new commands. subscriber is inactive
+[ros2_control_node-2] [WARN] [1715165407.502718824] [mobile_base_controller]: Can't accept new commands. subscriber is inactive
+[ros2_control_node-2] [WARN] [1715165407.508234449] [mobile_base_controller]: Can't accept new commands. subscriber is inactive
+[ros2_control_node-2] [WARN] [1715165407.514648021] [mobile_base_controller]: Can't accept new commands. subscriber is inactive
+[ros2_control_node-2] [WARN] [1715165407.519218440] [mobile_base_controller]: Can't accept new commands. subscriber is inactive
+[ros2_control_node-2] [WARN] [1715165407.526529774] [mobile_base_controller]: Can't accept new commands. subscriber is inactive
+[ros2_control_node-2] [WARN] [1715165407.529757782] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165407.563057071] [ezmower_hardware]:  
+[spawner-9] [INFO] [1715165407.582385658] [spawner_mobile_base_controller]: [92mConfigured and activated [1mmobile_base_controller[0m
+[ros2_control_node-2] [WARN] [1715165407.596804509] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165407.630450207] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165407.663089142] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165407.698177454] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165407.729950350] [ezmower_hardware]:  
+[INFO] [spawner-7]: process has finished cleanly [pid 2421]
+[ros2_control_node-2] [WARN] [1715165407.763502103] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165407.796054001] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165407.829500846] [ezmower_hardware]:  
+[INFO] [spawner-6]: process has finished cleanly [pid 2417]
+[ros2_control_node-2] [WARN] [1715165407.862762394] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165407.895955220] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165407.929478973] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165407.963054984] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165407.996543792] [ezmower_hardware]:  
+[INFO] [spawner-9]: process has finished cleanly [pid 2427]
+[ros2_control_node-2] [WARN] [1715165408.029696303] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165408.062994240] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165408.096262344] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165408.129635300] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165408.162879478] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165408.196179063] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165408.229643612] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165408.262972271] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165408.296342153] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165408.329756924] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165408.363001657] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165408.396328354] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165408.429734309] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165408.463348396] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165408.496298776] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165408.529551454] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165408.562831354] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165408.596150328] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165408.629530821] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165408.662766332] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165408.696101992] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165408.729469151] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165408.762950422] [ezmower_hardware]:  (ESP_FAIL) at 0x400d71f1
+[ros2_control_node-2] file: "./main/tasks/task_imu.c" line 117
+[ros2_control_node-2] func: run_imu
+[ros2_control_node-2] expression: get_accel_gyro_mag(&va, &vg, &vm)
+[ros2_control_node-2] 
+[ros2_control_node-2] abort() was called at PC 0x40086c13 on core 0
+[ros2_control_node-2] 
+[ros2_control_node-2] 
+[ros2_control_node-2] Backtrace: 0x40081c2a:0x3ffb9fd0 0x40086c1d:0x3ffb9ff0 0x4008bf0e:0x3ffba010 0x40086c13:0x3ffba080 0x400d71f1:0x3ffba0b0 0x400d7345:0x3ffba120 0x400897cd:0x3ffba140
+[ros2_control_node-2] 
+[ros2_control_node-2] 
+[ros2_control_node-2] 
+[ros2_control_node-2] 
+[ros2_control_node-2] ELF file SHA256: 4dd69
+[ros2_control_node-2] [WARN] [1715165408.796288785] [ezmower_hardware]: 756c5a9e3a1
+[ros2_control_node-2] 
+[ros2_control_node-2] Rebooting...
+[ros2_control_node-2] ets Jul 29 2019 12:21:46
+[ros2_control_node-2] 
+[ros2_control_node-2] rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+[ros2_control_node-2] configsip: 0, SPIWP:0xee
+[ros2_control_node-2] clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+[ros2_control_node-2] mode:DIO, clock div:2
+[ros2_control_node-2] load:0x3fff0030,len:7000
+[ros2_control_node-2] load:0x40078000,len:15452
+[ros2_control_node-2] ho 0 tail 12 room 4
+[ros2_control_node-2] load:0x40080400,len:3840
+[ros2_control_node-2] entry 0x4008064c
+[ros2_control_node-2] 
+[ros2_control_node-2] [WARN] [1715165408.829591519] [ezmower_hardware]: [0;32mI (29) boot: ESP-IDF v5.0-dirty 2nd stage bootloader[0m
+[ros2_control_node-2] [0;32mI (29) boot: compile time 01:06:29[0m
+[ros2_control_node-2] [0;32mI (29) boot: chip revision: v3.1[0m
+[ros2_control_node-2] [0;32mI (32) boot_comm: chip revision: 3, min. bootloader chip revision: 0[0m
+[ros2_control_node-2] [0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[ros2_control_node-2] [0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[ros2_control_node-2] [0;32mI (49) boot.esp32: SPI Flash Size : 2MB
+[ros2_control_node-2] [WARN] [1715165408.862860808] [ezmower_hardware]: [0m
+[ros2_control_node-2] [0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[ros2_control_node-2] [0;32mI (59) boot: Partition Table:[0m
+[ros2_control_node-2] [0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[ros2_control_node-2] [0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[ros2_control_node-2] [0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[ros2_control_node-2] [0;32mI (84) b
+[ros2_control_node-2] [WARN] [1715165408.896248060] [ezmower_hardware]: oot:  2 factory          factory app      00 00 00010000 00100000[0m
+[ros2_control_node-2] [0;32mI (92) boot: End of partition table[0m
+[ros2_control_node-2] [0;32mI (96) boot_comm: chip revision: 3, min. application chip revision: 0[0m
+[ros2_control_node-2] [0;32mI (103) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0e7d4h ( 59348) map[0m
+[ros2_control_node-2] 
+[ros2_control_node-2] [WARN] [1715165408.929482090] [ezmower_hardware]: [0;32mI (133) esp_image: segment 1: paddr=0001e7fc vaddr=3ffb0000 size=0181ch (  6172) load[0m
+[ros2_control_node-2] [0;32mI (136) esp_image: segment 2: paddr=00020020 vaddr=400d0020 size=23cc4h (146628) map[0m
+[ros2_control_node-2] 
+[ros2_control_node-2] [WARN] [1715165408.962916657] [ezmower_hardware]: [0;32mI (192) esp_image: segment 3: paddr=00043cec vaddr=
+[ros2_control_node-2] [WARN] [1715165408.996372168] [ezmower_hardware]: 3ffb181c size=00efch (  3836) load[0m
+[ros2_control_node-2] [0;32mI (194) esp_image: segment 4: paddr=00044bf0 vaddr=40080000 size=0d348h ( 54088) load[0m
+[ros2_control_node-2] [0;32mI (220) esp_image: segment 5: paddr=00051f40 vaddr=50000000 size=00010h (    16) load[0m
+[ros2_control_node-2] [0;32mI (227) boot: Loaded a
+[ros2_control_node-2] [WARN] [1715165409.029759606] [ezmower_hardware]: pp from partition at offset 0x10000[0m
+[ros2_control_node-2] [0;32mI (227) boot: Disabling RNG early entropy source...[0m
+[ros2_control_node-2] [0;32mI (240) cpu_start: Pro cpu up.[0m
+[ros2_control_node-2] [0;32mI (240) cpu_start: Starting app cpu, entry point is 0x400811ac[0m
+[ros2_control_node-2] [0;32mI (226) cpu_start: App cpu up.[0m
+[ros2_control_node-2] [0;32mI (255) cpu_start: Pro cpu start user code[0m
+[ros2_control_node-2] [0;32mI (255) cpu_start: cpu fr
+[ros2_control_node-2] [WARN] [1715165409.062902098] [ezmower_hardware]: eq: 160000000 Hz[0m
+[ros2_control_node-2] [0;32mI (255) cpu_start: Application information:[0m
+[ros2_control_node-2] [0;32mI (259) cpu_start: Project name:     project-name[0m
+[ros2_control_node-2] [0;32mI (265) cpu_start: App version:      ef0ed6f-dirty[0m
+[ros2_control_node-2] [0;32mI (270) cpu_start: Compile time:     Apr 27 2024 11:56:12[0m
+[ros2_control_node-2] [0;32mI (276) cpu_start: ELF file SHA256:  4dd69756c5a9e3a1...[0m
+[ros2_control_node-2] [0;32mI (282) cpu_start: ESP-IDF:    
+[ros2_control_node-2] [WARN] [1715165409.096319609] [ezmower_hardware]:       v5.0-dirty[0m
+[ros2_control_node-2] [0;32mI (288) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[ros2_control_node-2] [0;32mI (295) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[ros2_control_node-2] [0;32mI (301) heap_init: At 3FFB30C0 len 0002CF40 (179 KiB): DRAM[0m
+[ros2_control_node-2] [0;32mI (307) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[ros2_control_node-2] [0;32mI (313) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB)
+[ros2_control_node-2] [WARN] [1715165409.129764436] [ezmower_hardware]: : D/IRAM[0m
+[ros2_control_node-2] [0;32mI (320) heap_init: At 4008D348 len 00012CB8 (75 KiB): IRAM[0m
+[ros2_control_node-2] [0;32mI (327) spi_flash: detected chip: generic[0m
+[ros2_control_node-2] [0;32mI (331) spi_flash: flash io: dio[0m
+[ros2_control_node-2] [0;33mW (335) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[ros2_control_node-2] [0;32mI (349) cpu_start: Starting scheduler on PRO CPU.
+[ros2_control_node-2] [WARN] [1715165409.163063169] [ezmower_hardware]: [0m
+[ros2_control_node-2] [0;32mI (0) cpu_start: Starting scheduler on APP CPU.[0m
+[ros2_control_node-2] [0;32mI (0) L298N Driver: Configuring GPIO pads for direction.[0m
+[ros2_control_node-2] [0;32mI (10) gpio: GPIO[4]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (20) gpio: GPIO[5]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (20) gpio: GPIO[16]| InputE
+[ros2_control_node-2] [WARN] [1715165409.196386792] [ezmower_hardware]: n: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (30) gpio: GPIO[17]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (40) gpio: GPIO[18]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (50) gpio: GPIO[19]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:
+[ros2_control_node-2] [WARN] [1715165409.229760562] [ezmower_hardware]: 0 [0m
+[ros2_control_node-2] [0;32mI (60) gpio: GPIO[21]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (70) gpio: GPIO[22]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (518) MAIN: Motor drive service started.[0m
+[ros2_control_node-2] [0;32mI (528) gpio: GPIO[36]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (
+[ros2_control_node-2] [WARN] [1715165409.263019092] [ezmower_hardware]: 528) gpio: GPIO[25]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (538) gpio: GPIO[39]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (548) gpio: GPIO[33]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (558) gpio: GPIO[34]| InputEn: 1| OutputEn: 0| OpenDrain: 0|
+[ros2_control_node-2] [WARN] [1715165409.296122455] [ezmower_hardware]:  Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (568) gpio: GPIO[32]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (578) MAIN: Sonar sampling service started.[0m
+[ros2_control_node-2] [0;32mI (588) mpu9250: Initializating MPU9250[0m
+[ros2_control_node-2] 
+[ros2_control_node-2] [WARN] [1715165409.419341455] [ezmower_hardware]: 
+[ros2_control_node-2] [WARN] [1715165409.420585310] [ezmower_hardware]: [0;32mI (738) m
+[ros2_control_node-2] [WARN] [1715165409.421851314] [ezmower_hardware]: pu9250: Ena
+[ros2_control_node-2] [WARN] [1715165409.429309092] [ezmower_hardware]: bling magnetometer[0m
+[ros2_control_node-2] 
+[ros2_control_node-2] [WARN] [1715165409.649446174] [ezmower_hardware]: [
+[ros2_control_node-2] [WARN] [1715165409.650816345] [ezmower_hardware]: 0;32mI (968)
+[ros2_control_node-2] [WARN] [1715165409.652805276] [ezmower_hardware]:  mpu9250: Magnetometer 
+[ros2_control_node-2] [WARN] [1715165409.654070890] [ezmower_hardware]: enabled[0m
+[ros2_control_node-2] [WARN] [1715165409.655248819] [ezmower_hardware]: 
+[ros2_control_node-2] [0;32mI (
+[ros2_control_node-2] [WARN] [1715165409.656526804] [ezmower_hardware]: 968) mpu9250: MPU9250:
+[ros2_control_node-2] [WARN] [1715165409.662691245] [ezmower_hardware]: [0m
+[ros2_control_node-2] [0;32mI (968) mpu9250: --> i2c bus: 0x00[0m
+[ros2_control_node-2] [0;32mI (968) mp
+[ros2_control_node-2] [WARN] [1715165409.696157627] [ezmower_hardware]: u9250: --> Device address: 0x68[0m
+[ros2_control_node-2] [0;32mI (968) mpu9250: --> Device ID: 0x71[0m
+[ros2_control_node-2] [0;32mI (968) mpu9250: --> initialised: Yes[0m
+[ros2_control_node-2] [0;32mI (978) mpu9250: --> BYPASS enabled: Yes[0m
+[ros2_control_node-2] [0;32mI (978) mpu9250: --> SleepEnabled Mode: Off[0m
+[ros2_control_node-2] [0;32mI (988) mpu9250: --> i2c Master Mode: Disabled[0m
+[ros2_control_node-2] [0;32mI (988) mpu9250: --> Power Management (0x6B, 0x6C):[0m
+[ros2_control_node-2] [0;32mI (99
+[ros2_control_node-2] [WARN] [1715165409.729667695] [ezmower_hardware]: 8) mpu9250:   --> Clock Source: 1 1 (Auto selects the best available clock source)[0m
+[ros2_control_node-2] [0;32mI (1008) mpu9250:   --> Accel enabled (x, y, z): (Yes, Yes, Yes)[0m
+[ros2_control_node-2] [0;32mI (1008) mpu9250:   --> Gyro enabled (x, y, z): (Yes, Yes, Yes)[0m
+[ros2_control_node-2] [0;32mI (1018) mpu9250: Accelerometer:[0m
+[ros2_control_node-2] [0;32mI (1028) mpu9250: --> Full Scale Range (0x1C): ±4g (1)[0m
+[ros2_control_node-2] [0;32mI (1028) mpu9250: --> Scalar: 1
+[ros2_control_node-2] [WARN] [1715165409.762899335] [ezmower_hardware]: /8192.000000[0m
+[ros2_control_node-2] [0;32mI (1038) mpu9250: --> Calibration:[0m
+[ros2_control_node-2] [0;32mI (1038) mpu9250:   --> Offset: [0m
+[ros2_control_node-2] [0;32mI (1038) mpu9250:     --> x: 0.037232[0m
+[ros2_control_node-2] [0;32mI (1048) mpu9250:     --> y: 0.028771[0m
+[ros2_control_node-2] [0;32mI (1048) mpu9250:     --> z: -0.196840[0m
+[ros2_control_node-2] [0;32mI (1058) mpu9250:   --> Scale: [0m
+[ros2_control_node-2] [0;32mI (1058) mpu9250:     --> x: (1.007649, -0.983117)[0m
+[ros2_control_node-2] [0;32mI (10
+[ros2_control_node-2] [WARN] [1715165409.796213643] [ezmower_hardware]: 68) mpu9250:     --> y: (1.015083, -0.991380)[0m
+[ros2_control_node-2] [0;32mI (1068) mpu9250:     --> z: (0.904143, -1.119431)[0m
+[ros2_control_node-2] [0;32mI (1078) mpu9250: Gyroscope:[0m
+[ros2_control_node-2] [0;32mI (1078) mpu9250: --> Full Scale Range (0x1B): +250 dps (0)[0m
+[ros2_control_node-2] [0;32mI (1088) mpu9250: --> Scalar: 1/131.000000[0m
+[ros2_control_node-2] [0;32mI (1088) mpu9250: --> Bias Offset:[0m
+[ros2_control_node-2] [0;32mI (1098) mpu9250:   --> x: -3.542834[0m
+[ros2_control_node-2] [0
+[ros2_control_node-2] [WARN] [1715165409.829520765] [ezmower_hardware]: ;32mI (1098) mpu9250:   --> y: -0.251411[0m
+[ros2_control_node-2] [0;32mI (1098) mpu9250:   --> z: -0.036511[0m
+[ros2_control_node-2] [0;32mI (1108) ak8963: Magnetometer (Compass):[0m
+[ros2_control_node-2] [0;32mI (1108) ak8963: --> i2c address: 0x00[0m
+[ros2_control_node-2] [0;32mI (1118) ak8963: --> initialised: true[0m
+[ros2_control_node-2] [0;32mI (1118) ak8963: --> Device ID: 0x48[0m
+[ros2_control_node-2] [0;32mI (1128) ak8963: --> Mode: 0x06 (Continuous measurement mode 2: 100Hz)[0m
+[ros2_control_node-2] [0;32mI 
+[ros2_control_node-2] [WARN] [1715165409.862916499] [ezmower_hardware]: (1128) ak8963: --> ASA Scalars:[0m
+[ros2_control_node-2] [0;32mI (1138) ak8963:   --> x: 1.203125[0m
+[ros2_control_node-2] [0;32mI (1138) ak8963:   --> y: 1.203125[0m
+[ros2_control_node-2] [0;32mI (1148) ak8963:   --> z: 1.164062[0m
+[ros2_control_node-2] [0;32mI (1148) ak8963: --> Offset:[0m
+[ros2_control_node-2] [0;32mI (1148) ak8963:   --> x: 64.968750[0m
+[ros2_control_node-2] [0;32mI (1158) ak8963:   --> y: -278.523438[0m
+[ros2_control_node-2] [0;32mI (1158) ak8963:   --> z: 109.421875[0m
+[ros2_control_node-2] [0;32mI (1168)
+[ros2_control_node-2] [WARN] [1715165409.896204306] [ezmower_hardware]:  ak8963: --> Scale:[0m
+[ros2_control_node-2] [0;32mI (1168) ak8963:   --> x: 0.938980[0m
+[ros2_control_node-2] [0;32mI (1168) ak8963:   --> y: 0.974819[0m
+[ros2_control_node-2] [0;32mI (1178) ak8963:   --> z: 1.
+[ros2_control_node-2] [WARN] [1715165409.929482095] [ezmower_hardware]:  �?
+[ros2_control_node-2] [WARN] [1715165409.962813107] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165409.996202877] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165410.029512981] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165410.062784881] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165410.096156948] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165410.129495478] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165410.162799619] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165410.196133019] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165410.229496327] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165410.262782468] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165410.296192609] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165410.329468972] [ezmower_hardware]: C 0x40086c13 on core 0
+[ros2_control_node-2] 
+[ros2_control_node-2] 
+[ros2_control_node-2] Backtrace: 0x40081c2a:0x3ffb9fd0 0x40086c1d:0x3ffb9ff0 0x4008bf0e:0x3ffba010 0x40086c13:0x3ffba080 0x400d71f1:0x3ffba0b0 0x400d7345:0x3ffba120 0x400897cd:0x3ffba140
+[ros2_control_node-2] 
+[ros2_control_node-2] 
+[ros2_control_node-2] 
+[ros2_control_node-2] 
+[ros2_control_node-2] ELF file SHA256: 4dd69756c5a9e3a1
+[ros2_control_node-2] 
+[ros2_control_node-2] Rebooting...
+[ros2_control_node-2] ets Jul 29 2019 12:21:46
+[ros2_control_node-2] 
+[ros2_control_node-2] rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+[ros2_control_node-2] configsip: 0, SPIWP:0xee
+[ros2_control_node-2] clk_drv:0x
+[ros2_control_node-2] [WARN] [1715165410.362868317] [ezmower_hardware]: 00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+[ros2_control_node-2] mode:DIO, clock div:2
+[ros2_control_node-2] load:0x3fff0030,len:000
+[ros2_control_node-2] load:0x40078000,len:15452
+[ros2_control_node-2] ho 0 tail 12 room 4
+[ros2_control_node-2] load:0x40080400,len:3840
+[ros2_control_node-2] entry 0x4008064c
+[ros2_control_node-2] [0;32mI (29) boot: ESP-IDF v5.0-dirty 2nd stage bootloader[0m
+[ros2_control_node-2] [0;32mI (29) boot: compile time 01:06:29[0m
+[ros2_control_node-2] [0;32mI (29) boot: chip revision: v3.1[0m
+[ros2_control_node-2] [0;32mI 
+[ros2_control_node-2] [WARN] [1715165410.396241161] [ezmower_hardware]: (32) boot_comm: chip revision: 3, min. bootloader chip revision: 0[0m
+[ros2_control_node-2] [0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[ros2_control_node-2] [0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[ros2_control_node-2] [0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[ros2_control_node-2] [0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[ros2_control_node-2] [0;32mI (59) boot: Partition Table:[0m
+[ros2_control_node-2] [0;32mI (62) boot: ## Label            Usage 
+[ros2_control_node-2] [WARN] [1715165410.429524358] [ezmower_hardware]:          Type ST Offset   Length[0m
+[ros2_control_node-2] [0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[ros2_control_node-2] [0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[ros2_control_node-2] [0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[ros2_control_node-2] [0;32mI (92) boot: End of partition table[0m
+[ros2_control_node-2] [0;32mI (96) boot_comm: chip revisi
+[ros2_control_node-2] [WARN] [1715165410.462802165] [ezmower_hardware]: on: 3, min. application chip revision: 0[0m
+[ros2_control_node-2] [0;32mI (103) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0e7d4h ( 59348) map[0m
+[ros2_control_node-2] [0;32mI (133) esp_image: segment 1: paddr=0001e7fc vaddr=3ffb0000 size=0181ch (  6172) load[0m
+[ros2_control_node-2] [0;32mI (136) esp_image: segme
+[ros2_control_node-2] [WARN] [1715165410.496122028] [ezmower_hardware]: nt 2: paddr=00020020 vaddr=400d0020 size=23cc4h (146628) map[0m
+[ros2_control_node-2] 
+[ros2_control_node-2] [WARN] [1715165410.529521429] [ezmower_hardware]: [0;32mI (192) esp_image: segment 3: paddr=00043cec vaddr=3ffb181c size=00efch (  3836) load[0m
+[ros2_control_node-2] [0;32mI (194) esp_image: segment 4: paddr=00044bf0 vaddr=40080000 size=0d348h ( 54088) load[0m
+[ros2_control_node-2] 
+[ros2_control_node-2] [WARN] [1715165410.562848996] [ezmower_hardware]: [0;32mI (220) esp_image: segment 5: paddr=00051f40 vaddr=50000000 size=00010h (    16) load[0m
+[ros2_control_node-2] [0;32mI (227) boot: Loaded app from partition at offset 0x10000[0m
+[ros2_control_node-2] [0;32mI (227) boot: Disabling RNG early entropy source...[0m
+[ros2_control_node-2] [0;32mI (240) cpu_start: Pro cpu up.[0m
+[ros2_control_node-2] [0;32m
+[ros2_control_node-2] [WARN] [1715165410.596233692] [ezmower_hardware]: I (240) cpu_start: Starting app cpu, entry point is 0x400811ac[0m
+[ros2_control_node-2] [0;32mI (226) cpu_start: App cpu up.[0m
+[ros2_control_node-2] [0;32mI (255) cpu_start: Pro cpu start user code[0m
+[ros2_control_node-2] [0;32mI (255) cpu_start: cpu freq: 160000000 Hz[0m
+[ros2_control_node-2] [0;32mI (255) cpu_start: Application information:[0m
+[ros2_control_node-2] [0;32mI (259) cpu_start: Project name:     project-name[0m
+[ros2_control_node-2] [0;32mI (265) 
+[ros2_control_node-2] [WARN] [1715165410.629533759] [ezmower_hardware]: cpu_start: App version:      ef0ed6f-dirty[0m
+[ros2_control_node-2] [0;32mI (270) cpu_start: Compile time:     Apr 27 2024 11:56:12[0m
+[ros2_control_node-2] [0;32mI (276) cpu_start: ELF file SHA256:  4dd69756c5a9e3a1...[0m
+[ros2_control_node-2] [0;32mI (282) cpu_start: ESP-IDF:          v5.0-dirty[0m
+[ros2_control_node-2] [0;32mI (288) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[ros2_control_node-2] [0;32mI (295) heap_init: At 3FFAE6E0 len 00001920
+[ros2_control_node-2] [WARN] [1715165410.662812659] [ezmower_hardware]:  (6 KiB): DRAM[0m
+[ros2_control_node-2] [0;32mI (301) heap_init: At 3FFB30C0 len 0002CF40 (179 KiB): DRAM[0m
+[ros2_control_node-2] [0;32mI (307) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[ros2_control_node-2] [0;32mI (313) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[ros2_control_node-2] [0;32mI (320) heap_init: At 4008D348 len 00012CB8 (75 KiB): IRAM[0m
+[ros2_control_node-2] [0;32mI (327) spi_flash: detected chip: generic[0m
+[ros2_control_node-2] [0;32mI (331) spi_flash: fl
+[ros2_control_node-2] [WARN] [1715165410.696219245] [ezmower_hardware]: ash io: dio[0m
+[ros2_control_node-2] [0;33mW (335) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[ros2_control_node-2] [0;32mI (349) cpu_start: Starting scheduler on PRO CPU.[0m
+[ros2_control_node-2] [0;32mI (0) cpu_start: Starting scheduler on APP CPU.[0m
+[ros2_control_node-2] [0;32mI (0) L298N Driver: Configuring GPIO pads for direction.[0m
+[ros2_control_node-2] [0;32mI (10) gpio: G
+[ros2_control_node-2] [WARN] [1715165410.729548237] [ezmower_hardware]: PIO[4]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (20) gpio: GPIO[5]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (20) gpio: GPIO[16]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (30) gpio: GPIO[17]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldo
+[ros2_control_node-2] [WARN] [1715165410.762895101] [ezmower_hardware]: wn: 1| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (40) gpio: GPIO[18]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (50) gpio: GPIO[19]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (60) gpio: GPIO[21]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (70) gpio: GPIO[22]| InputEn: 1| OutputEn: 0
+[ros2_control_node-2] [WARN] [1715165410.796214779] [ezmower_hardware]: | OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (518) MAIN: Motor drive service started.[0m
+[ros2_control_node-2] [0;32mI (528) gpio: GPIO[36]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (528) gpio: GPIO[25]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (538) gpio: GPIO[39]| InputEn: 1| OutputEn: 0| Op
+[ros2_control_node-2] [WARN] [1715165410.829500401] [ezmower_hardware]: enDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (548) gpio: GPIO[33]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (558) gpio: GPIO[34]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (568) gpio: GPIO[32]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (5
+[ros2_control_node-2] [WARN] [1715165410.862784930] [ezmower_hardware]: 78) MAIN: Sonar sampling service started.[0m
+[ros2_control_node-2] [0;32mI (588) mpu9250: Initializating MPU9250[0m
+[ros2_control_node-2] 
+[ros2_control_node-2] [WARN] [1715165410.972064877] [ezmower_hardware]: 
+[ros2_control_node-2] [WARN] [1715165410.973402029] [ezmower_hardware]: [0;32mI 
+[ros2_control_node-2] [WARN] [1715165410.974814366] [ezmower_hardware]: (738) mpu9250: Enabling
+[ros2_control_node-2] [WARN] [1715165410.996011513] [ezmower_hardware]:  magnetometer[0m
+[ros2_control_node-2] 
+[ros2_control_node-2] [WARN] [1715165411.202220430] [ezmower_hardware]: 
+[ros2_control_node-2] [WARN] [1715165411.203679248] [ezmower_hardware]: [0;32mI
+[ros2_control_node-2] [WARN] [1715165411.204984992] [ezmower_hardware]:  (968) mpu9250: Magneto
+[ros2_control_node-2] [WARN] [1715165411.206638015] [ezmower_hardware]: meter enable
+[ros2_control_node-2] [WARN] [1715165411.207777685] [ezmower_hardware]: d[0m
+[ros2_control_node-2] [0;32mI (968) m
+[ros2_control_node-2] [WARN] [1715165411.208944169] [ezmower_hardware]: pu9250: MPU
+[ros2_control_node-2] [WARN] [1715165411.229389592] [ezmower_hardware]: 9250:[0m
+[ros2_control_node-2] [0;32mI (968) mpu9250: --> i2c bus: 0x00[0m
+[ros2_control_node-2] [0;32mI (968) mpu9250: --> Device address: 0x68[0m
+[ros2_control_node-2] [0;32mI (968) mpu9250: --> Device ID: 0x71[0m
+[ros2_control_node-2] [0;32mI (968) mpu9250: --> initialised: Yes[0m
+[ros2_control_node-2] [0;32mI (978) mpu92
+[ros2_control_node-2] [WARN] [1715165411.262841140] [ezmower_hardware]: 50: --> BYPASS enabled: Yes[0m
+[ros2_control_node-2] [0;32mI (978) mpu9250: --> SleepEnabled Mode: Off[0m
+[ros2_control_node-2] [0;32mI (988) mpu9250: --> i2c Master Mode: Disabled[0m
+[ros2_control_node-2] [0;32mI (988) mpu9250: --> Power Management (0x6B, 0x6C):[0m
+[ros2_control_node-2] [0;32mI (998) mpu9250:   --> Clock Source: 1 1 (Auto selects the best available clock source)[0m
+[ros2_control_node-2] [0;32mI (1008) mpu9250:   --> Accel enabled (x, y, z): (Yes, Yes, Yes)[0m
+[ros2_control_node-2] [
+[ros2_control_node-2] [WARN] [1715165411.296213559] [ezmower_hardware]: 0;32mI (1008) mpu9250:   --> Gyro enabled (x, y, z): (Yes, Yes, Yes)[0m
+[ros2_control_node-2] [0;32mI (1018) mpu9250: Accelerometer:[0m
+[ros2_control_node-2] [0;32mI (1028) mpu9250: --> Full Scale Range (0x1C): ±4g (1)[0m
+[ros2_control_node-2] [0;32mI (1028) mpu9250: --> Scalar: 1/8192.000000[0m
+[ros2_control_node-2] [0;32mI (1038) mpu9250: --> Calibration:[0m
+[ros2_control_node-2] [0;32mI (1038) mpu9250:   --> Offset: [0m
+[ros2_control_node-2] [0;32mI (1038) mpu9250:     --> x: 0.037232[
+[ros2_control_node-2] [WARN] [1715165411.329551534] [ezmower_hardware]: 0m
+[ros2_control_node-2] [0;32mI (1048) mpu9250:     --> y: 0.028771[0m
+[ros2_control_node-2] [0;32mI (1048) mpu9250:     --> z: -0.196840[0m
+[ros2_control_node-2] [0;32mI (1058) mpu9250:   --> Scale: [0m
+[ros2_control_node-2] [0;32mI (1058) mpu9250:     --> x: (1.007649, -0.983117)[0m
+[ros2_control_node-2] [0;32mI (1068) mpu9250:     --> y: (1.015083, -0.991380)[0m
+[ros2_control_node-2] [0;32mI (1068) mpu9250:     --> z: (0.904143, -1.119431)[0m
+[ros2_control_node-2] [0;32mI (1078) mpu9250: Gyroscope:[0m
+[ros2_control_node-2] 
+[ros2_control_node-2] [WARN] [1715165411.362873489] [ezmower_hardware]: [0;32mI (1078) mpu9250: --> Full Scale Range (0x1B): +250 dps (0)[0m
+[ros2_control_node-2] [0;32mI (1088) mpu9250: --> Scalar: 1/131.000000[0m
+[ros2_control_node-2] [0;32mI (1088) mpu9250: --> Bias Offset:[0m
+[ros2_control_node-2] [0;32mI (1098) mpu9250:   --> x: -3.542834[0m
+[ros2_control_node-2] [0;32mI (1098) mpu9250:   --> y: -0.251411[0m
+[ros2_control_node-2] [0;32mI (1098) mpu9250:   --> z: -0.036511[0m
+[ros2_control_node-2] [0;32mI (1108) ak8963: Magnetometer (Compass):[0m
+[ros2_control_node-2] [0;32mI (1108) ak
+[ros2_control_node-2] [WARN] [1715165411.396200501] [ezmower_hardware]: 8963: --> i2c address: 0x00[0m
+[ros2_control_node-2] [0;32mI (1118) ak8963: --> initialised: true[0m
+[ros2_control_node-2] [0;32mI (1118) ak8963: --> Device ID: 0x48[0m
+[ros2_control_node-2] [0;32mI (1128) ak8963: --> Mode: 0x06 (Continuous measurement mode 2: 100Hz)[0m
+[ros2_control_node-2] [0;32mI (1128) ak8963: --> ASA Scalars:[0m
+[ros2_control_node-2] [0;32mI (1138) ak8963:   --> x: 1.203125[0m
+[ros2_control_node-2] [0;32mI (1138) ak8963:   --> y: 1.203125[0m
+[ros2_control_node-2] [0;32mI (1148) ak8963:  
+[ros2_control_node-2] [WARN] [1715165411.429533586] [ezmower_hardware]:  --> z: 1.164062[0m
+[ros2_control_node-2] [0;32mI (1148) ak8963: --> Offset:[0m
+[ros2_control_node-2] [0;32mI (1148) ak8963:   --> x: 64.968750[0m
+[ros2_control_node-2] [0;32mI (1158) ak8963:   --> y: -278.523438[0m
+[ros2_control_node-2] [0;32mI (1158) ak8963:   --> z: 109.421875[0m
+[ros2_control_node-2] [0;32mI (1168) ak8963: --> Scale:[0m
+[ros2_control_node-2] [0;32mI (1168) ak8963:   --> x: 0.938980[0m
+[ros2_control_node-2] [0;32mI (1168) ak8963:   --> y: 0.974819[0m
+[ros2_control_node-2] [0;32mI (1178) ak8963:   --> z: 1.
+[ros2_control_node-2] [WARN] [1715165411.462823690] [ezmower_hardware]:  �?
+[ros2_control_node-2] [WARN] [1715165411.496097534] [ezmower_hardware]: ?�]��S�?���-���?��i>#### �?-��A�S�?���-���?��i>#### �?�LBġYB���B-���?��i>#### 
+[ros2_control_node-2] [WARN] [1715165411.529488953] [ezmower_hardware]: P�F1�?�'ἠ�� �A>�#��#### 
+[ros2_control_node-2] [WARN] [1715165411.562874594] [ezmower_hardware]: �a�˔�?��-��S[Q>�۾#### 
+[ros2_control_node-2] [WARN] [1715165411.596151365] [ezmower_hardware]: ���(Ï>e1>#### 
+[ros2_control_node-2] [WARN] [1715165411.629434394] [ezmower_hardware]: �
+[ros2_control_node-2] <��+?��>#### 
+[ros2_control_node-2] [WARN] [1715165411.662850387] [ezmower_hardware]: ��4��>��K�#### 
+[ros2_control_node-2] [WARN] [1715165411.696129972] [ezmower_hardware]: ### 
+[ros2_control_node-2] [WARN] [1715165411.729470336] [ezmower_hardware]: ### 
+[ros2_control_node-2] [WARN] [1715165411.762852032] [ezmower_hardware]: ### 
+[ros2_control_node-2] [WARN] [1715165411.796217358] [ezmower_hardware]: 
+[ros2_control_node-2] �?���K��R
+[ros2_control_node-2] ?��þ#### 
+[ros2_control_node-2] [WARN] [1715165411.829496592] [ezmower_hardware]: h�?/��ЌB�y;?���#### 
+[ros2_control_node-2] [WARN] [1715165411.862847770] [ezmower_hardware]: h�?/��ЌB�y;?���#### 
+[ros2_control_node-2] [WARN] [1715165411.896157948] [ezmower_hardware]: ;?���#### 
+[ros2_control_node-2] [WARN] [1715165411.929485607] [ezmower_hardware]: ;?���#### 
+[ros2_control_node-2] [WARN] [1715165411.962846415] [ezmower_hardware]: ;?���#### 
+[ros2_control_node-2] [WARN] [1715165411.996216797] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165412.029454493] [ezmower_hardware]: 
+[ros2_control_node-2] [WARN] [1715165412.062806412] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165412.096175108] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165412.129507971] [ezmower_hardware]: R��BЌB�y;?���#### 
+[ros2_control_node-2] [WARN] [1715165412.162820872] [ezmower_hardware]: Di�BЌB�y;?���#### 
+[ros2_control_node-2] [WARN] [1715165412.196105364] [ezmower_hardware]: �6�BЌB�y;?���#### 
+[ros2_control_node-2] [WARN] [1715165412.229512672] [ezmower_hardware]: ���#### 
+[ros2_control_node-2] [WARN] [1715165412.262787368] [ezmower_hardware]: ���#### 
+[ros2_control_node-2] [WARN] [1715165412.296189991] [ezmower_hardware]: ���#### 
+[ros2_control_node-2] [WARN] [1715165412.329453743] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165412.362830754] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165412.396136654] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165412.429495481] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165412.462783344] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165412.496158688] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165412.529541644] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165412.562819544] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165412.596134926] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165412.629420696] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165412.662773263] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165412.696197701] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165412.729424786] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165412.762768279] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165412.796164124] [ezmower_hardware]: ESP_ERROR_CHECK failed: esp_err_t 0x107 (ESP_ERR_TIMEOUT) at 0x400d71f1
+[ros2_control_node-2] file: "./main/tasks/task_imu.c" line 117
+[ros2_control_node-2] func: run_imu
+[ros2_control_node-2] expression: get_accel_gyro_mag(&va, &vg, &vm)
+[ros2_control_node-2] 
+[ros2_control_node-2] abort() was called at PC 0x40086c13 on core 0
+[ros2_control_node-2] 
+[ros2_control_node-2] 
+[ros2_control_node-2] Backtrace: 0x40081c2a:0x3ffb9fd0 0x40086c1d
+[ros2_control_node-2] [WARN] [1715165412.829541468] [ezmower_hardware]: :0x3ffb9ff0 0x4008bf0e:0x3ffba010 0x40086c13:0x3ffba080 0x400d71f1:0x3ffba0b0 0x400d7345:0x3ffba120 0x400897cd:0x3ffba140
+[ros2_control_node-2] 
+[ros2_control_node-2] 
+[ros2_control_node-2] 
+[ros2_control_node-2] 
+[ros2_control_node-2] ELF file SHA256: 4dd69756c5a9e3a1
+[ros2_control_node-2] 
+[ros2_control_node-2] Rebooting...
+[ros2_control_node-2] ets Jul 29 2019 12:21:46
+[ros2_control_node-2] 
+[ros2_control_node-2] rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+[ros2_control_node-2] configsip: 0, SPIWP:0xee
+[ros2_control_node-2] clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+[ros2_control_node-2] mode:DIO
+[ros2_control_node-2] [WARN] [1715165412.862872980] [ezmower_hardware]: , clock div:2
+[ros2_control_node-2] load:0x3fff0030,len:7000
+[ros2_control_node-2] load:0x40078000,len:15452
+[ros2_control_node-2] ho 0 tail 12 room 4
+[ros2_control_node-2] load:0x40080400,len:3840
+[ros2_control_node-2] entry 0x4008064c
+[ros2_control_node-2] [0;32mI (29) boot: ESP-IDF v5.0-dirty 2nd stage bootloader[0m
+[ros2_control_node-2] [0;32mI (29) boot: compile time 01:06:29[0m
+[ros2_control_node-2] [0;32mI (29) boot: chip revision: v3.1[0m
+[ros2_control_node-2] [0;32mI (32) boot_comm: chip revision: 3, min. bootloader chip revis
+[ros2_control_node-2] [WARN] [1715165412.896195954] [ezmower_hardware]: ion: 0[0m
+[ros2_control_node-2] [0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[ros2_control_node-2] [0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[ros2_control_node-2] [0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[ros2_control_node-2] [0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[ros2_control_node-2] [0;32mI (59) boot: Partition Table:[0m
+[ros2_control_node-2] [0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[ros2_control_node-2] [0;32mI (69) boot:  0 nvs        
+[ros2_control_node-2] [WARN] [1715165412.929553373] [ezmower_hardware]:       WiFi data        01 02 00009000 00006000[0m
+[ros2_control_node-2] [0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[ros2_control_node-2] [0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[ros2_control_node-2] [0;32mI (92) boot: End of partition table[0m
+[ros2_control_node-2] [0;32mI (96) boot_comm: chip revision: 3, min. application chip revision: 0[0m
+[ros2_control_node-2] [0;32mI (103) esp_image: 
+[ros2_control_node-2] [WARN] [1715165412.962867884] [ezmower_hardware]: segment 0: paddr=00010020 vaddr=3f400020 size=0e7d4h ( 59348) map[0m
+[ros2_control_node-2] [0;32mI (133) esp_image: segment 1: paddr=0001e7fc vaddr=3ffb0000 size=0181ch (  6172) load[0m
+[ros2_control_node-2] [0;32mI (136) esp_image: segment 2: paddr=00020020 vaddr=400d0020 size=23cc4h (146628) map
+[ros2_control_node-2] [WARN] [1715165412.996067950] [ezmower_hardware]: [0m
+[ros2_control_node-2] 
+[ros2_control_node-2] [WARN] [1715165413.029454814] [ezmower_hardware]: [0;32mI (192) esp_image: segment 3: paddr=00043cec vaddr=3ffb181c size=00efch (  3836) load[0m
+[ros2_control_node-2] [0;32mI (194) esp_image: segment 4: paddr=00044bf0 vaddr=40080000 size=0d348h ( 54088) load[0m
+[ros2_control_node-2] 
+[ros2_control_node-2] [WARN] [1715165413.062854529] [ezmower_hardware]: [0;32mI (220) esp_image: segment 5: paddr=00051f40 vaddr=50000000 size=00010h (    16) load[0m
+[ros2_control_node-2] [0;32mI (227) boot: Loaded app from partition at offset 0x10000[0m
+[ros2_control_node-2] [0;32mI (227) boot: Disabling RNG early entropy source...[0m
+[ros2_control_node-2] [0;32mI (240) cpu_start: Pro cpu up.[0m
+[ros2_control_node-2] [0;32mI (240) cpu_start: Starting app cpu, entry point is 0x400811
+[ros2_control_node-2] [WARN] [1715165413.096163688] [ezmower_hardware]: ac[0m
+[ros2_control_node-2] [0;32mI (226) cpu_start: App cpu up.[0m
+[ros2_control_node-2] [0;32mI (255) cpu_start: Pro cpu start user code[0m
+[ros2_control_node-2] [0;32mI (255) cpu_start: cpu freq: 160000000 Hz[0m
+[ros2_control_node-2] [0;32mI (255) cpu_start: Application information:[0m
+[ros2_control_node-2] [0;32mI (259) cpu_start: Project name:     project-name[0m
+[ros2_control_node-2] [0;32mI (265) cpu_start: App version:      ef0ed6f-dirty[0m
+[ros2_control_node-2] [0;32mI (270) cpu_start
+[ros2_control_node-2] [WARN] [1715165413.129549144] [ezmower_hardware]: : Compile time:     Apr 27 2024 11:56:12[0m
+[ros2_control_node-2] [0;32mI (276) cpu_start: ELF file SHA256:  4dd69756c5a9e3a1...[0m
+[ros2_control_node-2] [0;32mI (282) cpu_start: ESP-IDF:          v5.0-dirty[0m
+[ros2_control_node-2] [0;32mI (288) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[ros2_control_node-2] [0;32mI (295) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[ros2_control_node-2] [0;32mI (301) heap_init: At 3FFB30C0 len 0002CF40 (
+[ros2_control_node-2] [WARN] [1715165413.162889637] [ezmower_hardware]: 179 KiB): DRAM[0m
+[ros2_control_node-2] [0;32mI (307) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[ros2_control_node-2] [0;32mI (313) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[ros2_control_node-2] [0;32mI (320) heap_init: At 4008D348 len 00012CB8 (75 KiB): IRAM[0m
+[ros2_control_node-2] [0;32mI (327) spi_flash: detected chip: generic[0m
+[ros2_control_node-2] [0;32mI (331) spi_flash: flash io: dio[0m
+[ros2_control_node-2] [0;33mW (335) spi_flash: Detected size(409
+[ros2_control_node-2] [WARN] [1715165413.196217111] [ezmower_hardware]: 6k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[ros2_control_node-2] [0;32mI (349) cpu_start: Starting scheduler on PRO CPU.[0m
+[ros2_control_node-2] [0;32mI (0) cpu_start: Starting scheduler on APP CPU.[0m
+[ros2_control_node-2] [0;32mI (0) L298N Driver: Configuring GPIO pads for direction.[0m
+[ros2_control_node-2] [0;32mI (10) gpio: GPIO[4]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 1| I
+[ros2_control_node-2] [WARN] [1715165413.229627419] [ezmower_hardware]: ntr:0 [0m
+[ros2_control_node-2] [0;32mI (20) gpio: GPIO[5]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (20) gpio: GPIO[16]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (30) gpio: GPIO[17]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (40) gpio: GPIO[18]| InputEn: 0| OutputEn:
+[ros2_control_node-2] [WARN] [1715165413.262806708] [ezmower_hardware]:  1| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (50) gpio: GPIO[19]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (60) gpio: GPIO[21]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (70) gpio: GPIO[22]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI
+[ros2_control_node-2] [WARN] [1715165413.296220460] [ezmower_hardware]:  (518) MAIN: Motor drive service started.[0m
+[ros2_control_node-2] [0;32mI (528) gpio: GPIO[36]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (528) gpio: GPIO[25]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (538) gpio: GPIO[39]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (548) gpio: GP
+[ros2_control_node-2] [WARN] [1715165413.329504712] [ezmower_hardware]: IO[33]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (558) gpio: GPIO[34]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (568) gpio: GPIO[32]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (578) MAIN: Sonar sampling service started.[0m
+[ros2_control_node-2] [0;32mI (588) mpu9250: 
+[ros2_control_node-2] [WARN] [1715165413.362775723] [ezmower_hardware]: Initializating MPU9250[0m
+[ros2_control_node-2] 
+[ros2_control_node-2] [WARN] [1715165413.466176099] [ezmower_hardware]: 
+[ros2_control_node-2] [WARN] [1715165413.467473954] [ezmower_hardware]: [0;32mI (73
+[ros2_control_node-2] [WARN] [1715165413.469477589] [ezmower_hardware]: 8) mpu9250: Enabling ma
+[ros2_control_node-2] [WARN] [1715165413.496085083] [ezmower_hardware]: gnetometer[0m
+[ros2_control_node-2] 
+[ros2_control_node-2] [WARN] [1715165413.696326096] [ezmower_hardware]: 
+[ros2_control_node-2] [WARN] [1715165413.697534358] [ezmower_hardware]: [0;32mI (9
+[ros2_control_node-2] [WARN] [1715165413.699786031] [ezmower_hardware]: 68) mpu9250: Magnetomet
+[ros2_control_node-2] [WARN] [1715165413.703209688] [ezmower_hardware]: er enabled[0m
+[ros2_control_node-2] [0;32mI (968) mpu9
+[ros2_control_node-2] [WARN] [1715165413.707197105] [ezmower_hardware]: 250: MPU9250:[0m
+[ros2_control_node-2] [0;32mI (968) mpu9250: --> i2c bus: 0
+[ros2_control_node-2] [WARN] [1715165413.708990239] [ezmower_hardware]: x00[0m
+[ros2_control_node-2] [0
+[ros2_control_node-2] [WARN] [1715165413.729737237] [ezmower_hardware]: ;32mI (968) mpu9250: --> Device address: 0x68[0m
+[ros2_control_node-2] [0;32mI (968) mpu9250: --> Device ID: 0x71[0m
+[ros2_control_node-2] [0;32mI (968) mpu9250: --> initialised: Yes[0m
+[ros2_control_node-2] [0;32mI (978) mpu9250: --> BYPASS enabled: Yes[0m
+[ros2_control_node-2] [0;32mI (978) mpu9250: --> SleepEnable
+[ros2_control_node-2] [WARN] [1715165413.763145249] [ezmower_hardware]: d Mode: Off[0m
+[ros2_control_node-2] [0;32mI (988) mpu9250: --> i2c Master Mode: Disabled[0m
+[ros2_control_node-2] [0;32mI (988) mpu9250: --> Power Management (0x6B, 0x6C):[0m
+[ros2_control_node-2] [0;32mI (998) mpu9250:   --> Clock Source: 1 1 (Auto selects the best available clock source)[0m
+[ros2_control_node-2] [0;32mI (1008) mpu9250:   --> Accel enabled (x, y, z): (Yes, Yes, Yes)[0m
+[ros2_control_node-2] [0;32mI (1008) mpu9250:   --> Gyro enabled (x, y, z): (Yes, Yes, Yes)[0m
+[ros2_control_node-2] [WARN] [1715165413.796199444] [ezmower_hardware]: 
+[ros2_control_node-2] [0;32mI (1018) mpu9250: Accelerometer:[0m
+[ros2_control_node-2] [0;32mI (1028) mpu9250: --> Full Scale Range (0x1C): ±4g (1)[0m
+[ros2_control_node-2] [0;32mI (1028) mpu9250: --> Scalar: 1/8192.000000[0m
+[ros2_control_node-2] [0;32mI (1038) mpu9250: --> Calibration:[0m
+[ros2_control_node-2] [0;32mI (1038) mpu9250:   --> Offset: [0m
+[ros2_control_node-2] [0;32mI (1038) mpu9250:     --> x: 0.037232[0m
+[ros2_control_node-2] [0;32mI (1048) mpu9250:     --> y: 0.028771[0m
+[ros2_control_node-2] [0;32
+[ros2_control_node-2] [WARN] [1715165413.829627660] [ezmower_hardware]: mI (1048) mpu9250:     --> z: -0.196840[0m
+[ros2_control_node-2] [0;32mI (1058) mpu9250:   --> Scale: [0m
+[ros2_control_node-2] [0;32mI (1058) mpu9250:     --> x: (1.007649, -0.983117)[0m
+[ros2_control_node-2] [0;32mI (1068) mpu9250:     --> y: (1.015083, -0.991380)[0m
+[ros2_control_node-2] [0;32mI (1068) mpu9250:     --> z: (0.904143, -1.119431)[0m
+[ros2_control_node-2] [0;32mI (1078) mpu9250: Gyroscope:[0m
+[ros2_control_node-2] [0;32mI (1078) mpu9250: --> Full Scale Range (0x1B): +250 dps (0)[0m
+[ros2_control_node-2] 
+[ros2_control_node-2] [WARN] [1715165413.862838004] [ezmower_hardware]: [0;32mI (1088) mpu9250: --> Scalar: 1/131.000000[0m
+[ros2_control_node-2] [0;32mI (1088) mpu9250: --> Bias Offset:[0m
+[ros2_control_node-2] [0;32mI (1098) mpu9250:   --> x: -3.542834[0m
+[ros2_control_node-2] [0;32mI (1098) mpu9250:   --> y: -0.251411[0m
+[ros2_control_node-2] [0;32mI (1098) mpu9250:   --> z: -0.036511[0m
+[ros2_control_node-2] [0;32mI (1108) ak8963: Magnetometer (Compass):[0m
+[ros2_control_node-2] [0;32mI (1108) ak8963: --> i2c address: 0x00[0m
+[ros2_control_node-2] [0;32mI (1118) ak8963: --> 
+[ros2_control_node-2] [WARN] [1715165413.896159071] [ezmower_hardware]: initialised: true[0m
+[ros2_control_node-2] [0;32mI (1118) ak8963: --> Device ID: 0x48[0m
+[ros2_control_node-2] [0;32mI (1128) ak8963: --> Mode: 0x06 (Continuous measurement mode 2: 100Hz)[0m
+[ros2_control_node-2] [0;32mI (1128) ak8963: --> ASA Scalars:[0m
+[ros2_control_node-2] [0;32mI (1138) ak8963:   --> x: 1.203125[0m
+[ros2_control_node-2] [0;32mI (1138) ak8963:   --> y: 1.203125[0m
+[ros2_control_node-2] [0;32mI (1148) ak8963:   --> z: 1.164062[0m
+[ros2_control_node-2] [0;32mI (1148) ak8963: --> Offset:[0
+[ros2_control_node-2] [WARN] [1715165413.929545286] [ezmower_hardware]: m
+[ros2_control_node-2] [0;32mI (1148) ak8963:   --> x: 64.968750[0m
+[ros2_control_node-2] [0;32mI (1158) ak8963:   --> y: -278.523438[0m
+[ros2_control_node-2] [0;32mI (1158) ak8963:   --> z: 109.421875[0m
+[ros2_control_node-2] [0;32mI (1168) ak8963: --> Scale:[0m
+[ros2_control_node-2] [0;32mI (1168) ak8963:   --> x: 0.938980[0m
+[ros2_control_node-2] [0;32mI (1168) ak8963:   --> y: 0.974819[0m
+[ros2_control_node-2] [0;32mI (1178) ak8963:   --> z: 1.
+[ros2_control_node-2] [WARN] [1715165413.962741908] [ezmower_hardware]:  �?
+[ros2_control_node-2] [WARN] [1715165413.996160642] [ezmower_hardware]:  �?�ʹA��BD�oB@��_j?�,|�#### 
+[ros2_control_node-2] [WARN] [1715165414.029610190] [ezmower_hardware]: �oB`s��
+[ros2_control_node-2] �u?�A�>#### 
+[ros2_control_node-2] [WARN] [1715165414.063176906] [ezmower_hardware]: oBh���$f�H�#### 
+[ros2_control_node-2] [WARN] [1715165414.096288232] [ezmower_hardware]: k�#### 
+[ros2_control_node-2] [WARN] [1715165414.129733502] [ezmower_hardware]: k�#### 
+[ros2_control_node-2] [WARN] [1715165414.163057921] [ezmower_hardware]: e�#### 
+[ros2_control_node-2] [WARN] [1715165414.196318025] [ezmower_hardware]: �r�#### 
+[ros2_control_node-2] [WARN] [1715165414.229671721] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165414.262908529] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165414.296344244] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165414.329627588] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165414.362901914] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165414.396179685] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165414.429612159] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165414.462871022] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165414.496121293] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165414.529551823] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165414.562980038] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165414.596136160] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165414.629436856] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165414.662822812] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165414.696152861] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165414.729463890] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165414.762790865] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165414.796158969] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165414.829524369] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165414.862805454] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165414.896176336] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165414.929434773] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165414.962780192] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165414.996164148] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165415.029435140] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165415.062843911] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165415.096181774] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165415.129434137] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165415.162822834] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165415.196105752] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165415.229435708] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165415.262819479] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165415.296173879] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165415.329412001] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165415.362874439] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165415.396150691] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165415.429489776] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165415.462781510] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165415.496111891] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165415.529515977] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165415.562905710] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165415.596154925] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165415.629493437] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165415.662787689] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165415.696165385] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165415.729474952] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165415.762784185] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165415.796217086] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165415.829504597] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165415.862826349] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165415.896202305] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165415.929433094] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165415.962788253] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165415.996176709] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165416.029436257] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165416.062840787] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165416.096197484] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165416.129542106] [ezmower_hardware]: 
+[ros2_control_node-2] [WARN] [1715165416.162790099] [ezmower_hardware]: ������)K��E�?�)�?�)�?#### 
+[ros2_control_node-2] [WARN] [1715165416.196147203] [ezmower_hardware]: ������)K��E�?�)�?�)�?#### 
+[ros2_control_node-2] [WARN] [1715165416.229510270] [ezmower_hardware]: ������)K��E�?�)�?�)�?#### 
+[ros2_control_node-2] [WARN] [1715165416.262813670] [ezmower_hardware]: ���2(@p�?#### 
+[ros2_control_node-2] [WARN] [1715165416.296154866] [ezmower_hardware]: �?�)�?�)�?#### 
+[ros2_control_node-2] [WARN] [1715165416.329500156] [ezmower_hardware]: �?�)�?�)�?#### 
+[ros2_control_node-2] [WARN] [1715165416.362813926] [ezmower_hardware]: �?�)�?�)�?#### 
+[ros2_control_node-2] [WARN] [1715165416.396108937] [ezmower_hardware]: ## 
+[ros2_control_node-2] [WARN] [1715165416.429503393] [ezmower_hardware]: ### 
+[ros2_control_node-2] [WARN] [1715165416.462811497] [ezmower_hardware]: ## 
+[ros2_control_node-2] [WARN] [1715165416.496170934] [ezmower_hardware]: s'C������@� �T0�#### 
+[ros2_control_node-2] Error: rcutils_char_array_vsprintf failed with: 2
+[ros2_control_node-2] failed to format user log message: vsprintf on char array failed, at ./src/char_array.c:172
+[ros2_control_node-2] [WARN] [1715165416.562846161] [ezmower_hardware]: �&C�X�xƪ@~���H�#### 
+[ros2_control_node-2] [WARN] [1715165416.596145764] [ezmower_hardware]: ��K;ο#### 
+[ros2_control_node-2] [WARN] [1715165416.629510665] [ezmower_hardware]: ���Ƕ�#### 
+[ros2_control_node-2] [WARN] [1715165416.662773768] [ezmower_hardware]: H��$@#### 
+[ros2_control_node-2] [WARN] [1715165416.696147595] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165416.729498088] [ezmower_hardware]: 
+[ros2_control_node-2] [WARN] [1715165416.762871988] [ezmower_hardware]: 
+[ros2_control_node-2] [WARN] [1715165416.796163999] [ezmower_hardware]: {��Ủ@�~�9?#### 
+[ros2_control_node-2] [WARN] [1715165416.829475418] [ezmower_hardware]: �򋻧��@�Q	�BM?#### 
+[ros2_control_node-2] [WARN] [1715165416.862823948] [ezmower_hardware]: ��d����@aY�����#### 
+[ros2_control_node-2] [WARN] [1715165416.896162811] [ezmower_hardware]: �y�#### 
+[ros2_control_node-2] [WARN] [1715165416.929492803] [ezmower_hardware]: �#��#### 
+[ros2_control_node-2] [WARN] [1715165416.962816463] [ezmower_hardware]: ��?@#### 
+[ros2_control_node-2] [WARN] [1715165416.996159271] [ezmower_hardware]: 
+[ros2_control_node-2] [WARN] [1715165417.029439726] [ezmower_hardware]: x��A�՞?� ����@�"��ڔ(�#### 
+[ros2_control_node-2] [WARN] [1715165417.062775571] [ezmower_hardware]: M��A��?$�E:�l�@4�VA?#### 
+[ros2_control_node-2] [WARN] [1715165417.096178267] [ezmower_hardware]: =��@f�
+[ros2_control_node-2] [WARN] [1715165417.129512112] [ezmower_hardware]: ����@g������#### 
+[ros2_control_node-2] [WARN] [1715165417.162857383] [ezmower_hardware]: ����@Χ��!�#### 
+[ros2_control_node-2] [WARN] [1715165417.196138894] [ezmower_hardware]: �#### 
+[ros2_control_node-2] [WARN] [1715165417.229507035] [ezmower_hardware]: ?#### 
+[ros2_control_node-2] [WARN] [1715165417.262820546] [ezmower_hardware]: ?#### 
+[ros2_control_node-2] [WARN] [1715165417.296163687] [ezmower_hardware]: Bh��B˝cBY�@7�
+[ros2_control_node-2] [WARN] [1715165417.329460217] [ezmower_hardware]: BaI�Bd�wB��@4���9�?#### 
+[ros2_control_node-2] [WARN] [1715165417.362888395] [ezmower_hardware]: �B��BI�~B�/�@p�	��W�@#### 
+[ros2_control_node-2] [WARN] [1715165417.396138184] [ezmower_hardware]: ]@Pܣ��f�#### 
+[ros2_control_node-2] [WARN] [1715165417.429403954] [ezmower_hardware]: @�5X��L��#### 
+[ros2_control_node-2] [WARN] [1715165417.462809984] [ezmower_hardware]: ����?�=�?#### 
+[ros2_control_node-2] [WARN] [1715165417.496074310] [ezmower_hardware]: ## 
+[ros2_control_node-2] [WARN] [1715165417.529513748] [ezmower_hardware]: ## 
+[ros2_control_node-2] [WARN] [1715165417.562857518] [ezmower_hardware]: ## 
+[ros2_control_node-2] [WARN] [1715165417.596101344] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165417.629508819] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165417.662827274] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165417.696153045] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165417.729472945] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165417.762830938] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165417.796171412] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165417.829503016] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165417.862785064] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165417.896171724] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165417.929482513] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165417.962834061] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165417.996129313] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165418.029428084] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165418.062837688] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165418.096117125] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165418.129494562] [ezmower_hardware]: ESP_ERROR_CHECK failed: esp_err_t 0xffffffff (ESP_FAIL) at 0x400d71f1
+[ros2_control_node-2] file: "./main/tasks/task_imu.c" line 117
+[ros2_control_node-2] func: run_imu
+[ros2_control_node-2] expression: get_accel_gyro_mag(&va , &vg, &vm)
+[ros2_control_node-2] 
+[ros2_control_node-2] abort() was called at PC 0x40086c13 on core 0
+[ros2_control_node-2] 
+[ros2_control_node-2] 
+[ros2_control_node-2] Backtrace: 0x40081c2a:0x3ffb9fd0 
+[ros2_control_node-2] [WARN] [1715165418.162954222] [ezmower_hardware]: 0x40086c1d:0x3ffb9ff0 0x4008bf0e:0x3ffba010 0x40086c13:0x3ffba080 0x400d71f1:0x3ffba0b0 0x400d7345:0x3ffba120 0x400897cd:0x3ffba140
+[ros2_control_node-2] 
+[ros2_control_node-2] 
+[ros2_control_node-2] 
+[ros2_control_node-2] 
+[ros2_control_node-2] ELF file SHA256: 4dd69756c5a9e3a1
+[ros2_control_node-2] 
+[ros2_control_node-2] Rebooting...
+[ros2_control_node-2] ets Jul 29 2019 12:21:46
+[ros2_control_node-2] 
+[ros2_control_node-2] rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+[ros2_control_node-2] configsip: 0, SPIWP:0xee
+[ros2_control_node-2] clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+[ros2_control_node-2] mode:DIO, 
+[ros2_control_node-2] [WARN] [1715165418.196249178] [ezmower_hardware]: clock div:2
+[ros2_control_node-2] load:0x3fff0030,len:7000
+[ros2_control_node-2] load:0x40078000,len:15452
+[ros2_control_node-2] ho 0 tail 12 room 4
+[ros2_control_node-2] load:0x40080400,len:3840
+[ros2_control_node-2] entry 0x4008064c
+[ros2_control_node-2] [0;32mI (29) boot: ESP-IDF v5.0-dirty 2nd stage bootloader[0m
+[ros2_control_node-2] [0;32mI (29) boot: compile time 01:06:29[0m
+[ros2_control_node-2] [0;32mI (29) boot: chip revision: v3.1[0m
+[ros2_control_node-2] [0;32mI (32) boot_comm: chip revision: 3, min. bootloader chip revisio
+[ros2_control_node-2] [WARN] [1715165418.229543319] [ezmower_hardware]: n: 0[0m
+[ros2_control_node-2] [0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[ros2_control_node-2] [0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[ros2_control_node-2] [0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[ros2_control_node-2] [0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[ros2_control_node-2] [0;32mI (59) boot: Partition Table:[0m
+[ros2_control_node-2] [0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[ros2_control_node-2] [0;32mI (69) boot:  0 n
+[ros2_control_node-2] [WARN] [1715165418.262853719] [ezmower_hardware]: vs              WiFi data        01 02 00009000 00006000[0m
+[ros2_control_node-2] [0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[ros2_control_node-2] [0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[ros2_control_node-2] [0;32mI (92) boot: End of partition table[0m
+[ros2_control_node-2] [0;32mI (96) boot_comm: chip revision: 3, min. application chip revision: 0[0m
+[ros2_control_node-2] [0;32mI (103) esp_image: se
+[ros2_control_node-2] [WARN] [1715165418.296196138] [ezmower_hardware]: gment 0: paddr=00010020 vaddr=3f400020 size=0e7d4h ( 59348) map[0m
+[ros2_control_node-2] [0;32mI (133) esp_image: segment 1: paddr=0001e7fc vaddr=3ffb0000 size=0181ch (  6172) load[0m
+[ros2_control_node-2] [0;32mI (136) esp_image: segment 2: paddr=00020020 vaddr=400d0020 size=23cc4h (146628) map[
+[ros2_control_node-2] [WARN] [1715165418.329421649] [ezmower_hardware]: 0m
+[ros2_control_node-2] 
+[ros2_control_node-2] [WARN] [1715165418.362813530] [ezmower_hardware]: [0;32mI (192) esp_image: segment 3: paddr=00043cec vaddr=3ffb181c size=00efch (  3836) load[0m
+[ros2_control_node-2] [0;32mI (194) esp_image: segment 4: paddr=00044bf0 vaddr=40080000 size=0d348h ( 54088) load[0m
+[ros2_control_node-2] 
+[ros2_control_node-2] [WARN] [1715165418.396149505] [ezmower_hardware]: [0;32mI (220) esp_image: segment 5: paddr=00051f40 vaddr=50000000 size=00010h (    16) load[0m
+[ros2_control_node-2] [0;32mI (227) boot: Loaded app from partition at offset 0x10000[0m
+[ros2_control_node-2] [0;32mI (227) boot: Disabling RNG early entropy source...[0m
+[ros2_control_node-2] [0;32mI (240) cpu_start: Pro cpu up.[0m
+[ros2_control_node-2] [0;32mI (240) cpu_start: Starting app cpu, entry point is 0x400811ac
+[ros2_control_node-2] [WARN] [1715165418.429536979] [ezmower_hardware]: [0m
+[ros2_control_node-2] [0;32mI (226) cpu_start: App cpu up.[0m
+[ros2_control_node-2] [0;32mI (255) cpu_start: Pro cpu start user code[0m
+[ros2_control_node-2] [0;32mI (255) cpu_start: cpu freq: 160000000 Hz[0m
+[ros2_control_node-2] [0;32mI (255) cpu_start: Application information:[0m
+[ros2_control_node-2] [0;32mI (259) cpu_start: Project name:     project-name[0m
+[ros2_control_node-2] [0;32mI (265) cpu_start: App version:      ef0ed6f-dirty[0m
+[ros2_control_node-2] [0;32mI (270)
+[ros2_control_node-2] [WARN] [1715165418.462794916] [ezmower_hardware]:  cpu_start: Compile time:     Apr 27 2024 11:56:12[0m
+[ros2_control_node-2] [0;32mI (276) cpu_start: ELF file SHA256:  4dd69756c5a9e3a1...[0m
+[ros2_control_node-2] [0;32mI (282) cpu_start: ESP-IDF:          v5.0-dirty[0m
+[ros2_control_node-2] [0;32mI (288) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[ros2_control_node-2] [0;32mI (295) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[ros2_control_node-2] [0;32mI (301) heap_init: At 3FFB30C0 len 
+[ros2_control_node-2] [WARN] [1715165418.496119946] [ezmower_hardware]: 0002CF40 (179 KiB): DRAM[0m
+[ros2_control_node-2] [0;32mI (307) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[ros2_control_node-2] [0;32mI (313) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[ros2_control_node-2] [0;32mI (320) heap_init: At 4008D348 len 00012CB8 (75 KiB): IRAM[0m
+[ros2_control_node-2] [0;32mI (327) spi_flash: detected chip: generic[0m
+[ros2_control_node-2] [0;32mI (331) spi_flash: flash io: dio[0m
+[ros2_control_node-2] [0;33mW (335) spi_flash: Detected size(4096k
+[ros2_control_node-2] [WARN] [1715165418.529536643] [ezmower_hardware]: ) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[ros2_control_node-2] [0;32mI (349) cpu_start: Starting scheduler on PRO CPU.[0m
+[ros2_control_node-2] [0;32mI (0) cpu_start: Starting scheduler on APP CPU.[0m
+[ros2_control_node-2] [0;32mI (0) L298N Driver: Configuring GPIO pads for direction.[0m
+[ros2_control_node-2] [0;32mI (10) gpio: GPIO[4]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pull
+[ros2_control_node-2] [WARN] [1715165418.562875728] [ezmower_hardware]: down: 1| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (20) gpio: GPIO[5]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (20) gpio: GPIO[16]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (30) gpio: GPIO[17]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (40) gpio: GPIO[18]| InputEn: 0|
+[ros2_control_node-2] [WARN] [1715165418.596234369] [ezmower_hardware]:  OutputEn: 1| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (50) gpio: GPIO[19]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (60) gpio: GPIO[21]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (70) gpio: GPIO[22]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI 
+[ros2_control_node-2] [WARN] [1715165418.629591325] [ezmower_hardware]: (518) MAIN: Motor drive service started.[0m
+[ros2_control_node-2] [0;32mI (528) gpio: GPIO[36]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (528) gpio: GPIO[25]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (538) gpio: GPIO[39]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (548
+[ros2_control_node-2] [WARN] [1715165418.662871688] [ezmower_hardware]: ) gpio: GPIO[33]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (558) gpio: GPIO[34]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (568) gpio: GPIO[32]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (578) MAIN: Sonar sampling service started.[0m
+[ros2_control_node-2] [0;32mI (588)
+[ros2_control_node-2] [WARN] [1715165418.696134866] [ezmower_hardware]:  mpu9250: Initializating MPU9250[0m
+[ros2_control_node-2] 
+[ros2_control_node-2] [WARN] [1715165418.799939946] [ezmower_hardware]: 
+[ros2_control_node-2] [WARN] [1715165418.802107100] [ezmower_hardware]: [0;32mI (738) mpu9250: E
+[ros2_control_node-2] [WARN] [1715165418.804407125] [ezmower_hardware]: nabling magnetometer[0
+[ros2_control_node-2] [WARN] [1715165418.829447929] [ezmower_hardware]: m
+[ros2_control_node-2] 
+[ros2_control_node-2] [WARN] [1715165419.030137555] [ezmower_hardware]: 
+[ros2_control_node-2] [WARN] [1715165419.031415928] [ezmower_hardware]: [0;32mI (96
+[ros2_control_node-2] [WARN] [1715165419.033744268] [ezmower_hardware]: 8) mpu9250: Magnetomete
+[ros2_control_node-2] [WARN] [1715165419.035675902] [ezmower_hardware]: r enabled[0m
+[ros2_control_node-2] [0;32mI
+[ros2_control_node-2] [WARN] [1715165419.037117332] [ezmower_hardware]:  (968) mpu9250: MPU9250
+[ros2_control_node-2] [WARN] [1715165419.038587058] [ezmower_hardware]: :[0m
+[ros2_control_node-2] [0;3
+[ros2_control_node-2] [WARN] [1715165419.062860750] [ezmower_hardware]: 2mI (968) mpu9250: --> i2c bus: 0x00[0m
+[ros2_control_node-2] [0;32mI (968) mpu9250: --> Device address: 0x68[0m
+[ros2_control_node-2] [0;32mI (968) mpu9250: --> Device ID: 0x71[0m
+[ros2_control_node-2] [0;32mI (968) mpu9250: --> initialised: Yes[0m
+[ros2_control_node-2] [0;32mI (978) mpu9250: --> BYPASS enabled: Yes[0m
+[ros2_control_node-2] [0;32mI (978) mpu9250: --> S
+[ros2_control_node-2] [WARN] [1715165419.096207353] [ezmower_hardware]: leepEnabled Mode: Off[0m
+[ros2_control_node-2] [0;32mI (988) mpu9250: --> i2c Master Mode: Disabled[0m
+[ros2_control_node-2] [0;32mI (988) mpu9250: --> Power Management (0x6B, 0x6C):[0m
+[ros2_control_node-2] [0;32mI (998) mpu9250:   --> Clock Source: 1 1 (Auto selects the best available clock source)[0m
+[ros2_control_node-2] [0;32mI (1008) mpu9250:   --> Accel enabled (x, y, z): (Yes, Yes, Yes)[0m
+[ros2_control_node-2] [0;32mI (1008) mpu9250:   --> Gyro enabled (x, y, z): (Yes, Yes
+[ros2_control_node-2] [WARN] [1715165419.129588995] [ezmower_hardware]: , Yes)[0m
+[ros2_control_node-2] [0;32mI (1018) mpu9250: Accelerometer:[0m
+[ros2_control_node-2] [0;32mI (1028) mpu9250: --> Full Scale Range (0x1C): ±4g (1)[0m
+[ros2_control_node-2] [0;32mI (1028) mpu9250: --> Scalar: 1/8192.000000[0m
+[ros2_control_node-2] [0;32mI (1038) mpu9250: --> Calibration:[0m
+[ros2_control_node-2] [0;32mI (1038) mpu9250:   --> Offset: [0m
+[ros2_control_node-2] [0;32mI (1038) mpu9250:     --> x: 0.037232[0m
+[ros2_control_node-2] [0;32mI (1048) mpu9250:     --> y: 0.028771[0m
+[ros2_control_node-2] [0;32m
+[ros2_control_node-2] [WARN] [1715165419.162877746] [ezmower_hardware]: I (1048) mpu9250:     --> z: -0.196840[0m
+[ros2_control_node-2] [0;32mI (1058) mpu9250:   --> Scale: [0m
+[ros2_control_node-2] [0;32mI (1058) mpu9250:     --> x: (1.007649, -0.983117)[0m
+[ros2_control_node-2] [0;32mI (1068) mpu9250:     --> y: (1.015083, -0.991380)[0m
+[ros2_control_node-2] [0;32mI (1068) mpu9250:     --> z: (0.904143, -1.119431)[0m
+[ros2_control_node-2] [0;32mI (1078) mpu9250: Gyroscope:[0m
+[ros2_control_node-2] [0;32mI (1078) mpu9250: --> Full Scale Range (0x1B): +250 dps 
+[ros2_control_node-2] [WARN] [1715165419.196177739] [ezmower_hardware]: (0)[0m
+[ros2_control_node-2] [0;32mI (1088) mpu9250: --> Scalar: 1/131.000000[0m
+[ros2_control_node-2] [0;32mI (1088) mpu9250: --> Bias Offset:[0m
+[ros2_control_node-2] [0;32mI (1098) mpu9250:   --> x: -3.542834[0m
+[ros2_control_node-2] [0;32mI (1098) mpu9250:   --> y: -0.251411[0m
+[ros2_control_node-2] [0;32mI (1098) mpu9250:   --> z: -0.036511[0m
+[ros2_control_node-2] [0;32mI (1108) ak8963: Magnetometer (Compass):[0m
+[ros2_control_node-2] [0;32mI (1108) ak8963: --> i2c address: 0x00[0m
+[ros2_control_node-2] [0;32mI (1118) ak8963: --> i
+[ros2_control_node-2] [WARN] [1715165419.229592362] [ezmower_hardware]: nitialised: true[0m
+[ros2_control_node-2] [0;32mI (1118) ak8963: --> Device ID: 0x48[0m
+[ros2_control_node-2] [0;32mI (1128) ak8963: --> Mode: 0x06 (Continuous measurement mode 2: 100Hz)[0m
+[ros2_control_node-2] [0;32mI (1128) ak8963: --> ASA Scalars:[0m
+[ros2_control_node-2] [0;32mI (1138) ak8963:   --> x: 1.203125[0m
+[ros2_control_node-2] [0;32mI (1138) ak8963:   --> y: 1.203125[0m
+[ros2_control_node-2] [0;32mI (1148) ak8963:   --> z: 1.164062[0m
+[ros2_control_node-2] [0;32mI (1148) ak8963: --> Offset:[0m
+[ros2_control_node-2] [WARN] [1715165419.262891706] [ezmower_hardware]: 
+[ros2_control_node-2] [0;32mI (1148) ak8963:   --> x: 64.968750[0m
+[ros2_control_node-2] [0;32mI (1158) ak8963:   --> y: -278.523438[0m
+[ros2_control_node-2] [0;32mI (1158) ak8963:   --> z: 109.421875[0m
+[ros2_control_node-2] [0;32mI (1168) ak8963: --> Scale:[0m
+[ros2_control_node-2] [0;32mI (1168) ak8963:   --> x: 0.938980[0m
+[ros2_control_node-2] [0;32mI (1168) ak8963:   --> y: 0.974819[0m
+[ros2_control_node-2] [0;32mI (1178) ak8963:   --> z: 1.
+[ros2_control_node-2] [WARN] [1715165419.296225069] [ezmower_hardware]:  �?
+[ros2_control_node-2] [WARN] [1715165419.329422599] [ezmower_hardware]: �?�Z�B�v�Bq@�A`s����?�#### 
+[ros2_control_node-2] [WARN] [1715165419.362817314] [ezmower_hardware]: 
+[ros2_control_node-2] [WARN] [1715165419.396129548] [ezmower_hardware]: 
+[ros2_control_node-2] [WARN] [1715165419.429518837] [ezmower_hardware]: A�:��B��>��K�#### 
+[ros2_control_node-2] [WARN] [1715165419.462764515] [ezmower_hardware]: A�+�F�=J�R>#### 
+[ros2_control_node-2] [WARN] [1715165419.496122470] [ezmower_hardware]: A
+[ros2_control_node-2] [WARN] [1715165419.529431445] [ezmower_hardware]: S�#### 
+[ros2_control_node-2] [WARN] [1715165419.562944716] [ezmower_hardware]: �#### 
+[ros2_control_node-2] [WARN] [1715165419.596395487] [ezmower_hardware]: r�#### 
+[ros2_control_node-2] [WARN] [1715165419.629761813] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165419.662922879] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165419.696253853] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165419.729928162] [ezmower_hardware]: ESP_ERROR_CHECK failed: esp_err_t 0xffffffff (ESP_FAIL) at 0x400d71f1
+[ros2_control_node-2] file: "./main/tasks/task_imu.c" line 117
+[ros2_control_node-2] func: run_imu
+[ros2_control_node-2] expression: get_accel_gyro_mag(&va, &vg, &vm) 
+[ros2_control_node-2] 
+[ros2_control_node-2] abort() was called at PC 0x40086c13 on core 0
+[ros2_control_node-2] [WARN] [1715165419.763369877] [ezmower_hardware]: 
+[ros2_control_node-2] 
+[ros2_control_node-2] 
+[ros2_control_node-2] Backtrace: 0x40081c2a:0x3ffb9fd0 0x40086c1d:0x3ffb9ff0 0x4008bf0e:0x3ffba010 0x40086c13:0x3ffba080 0x400d71f1:0x3ffba0b0 0x400d7345:0x3ffba120 0x400897cd:0x3ffba140
+[ros2_control_node-2] 
+[ros2_control_node-2] 
+[ros2_control_node-2] 
+[ros2_control_node-2] 
+[ros2_control_node-2] ELF file SHA256: 4dd69756c5a9e3a1
+[ros2_control_node-2] 
+[ros2_control_node-2] Rebooting...
+[ros2_control_node-2] ets Jul 29 2019 12:21:46
+[ros2_control_node-2] 
+[ros2_control_node-2] rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+[ros2_control_node-2] configsip: 0, SPIWP:0xee
+[ros2_control_node-2] clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0
+[ros2_control_node-2] [WARN] [1715165419.796389573] [ezmower_hardware]: x00,hd_drv:0x00,wp_drv:0x00
+[ros2_control_node-2] mode:DIO, clock div:2
+[ros2_control_node-2] load:0x3fff0030,len:7000
+[ros2_control_node-2] load:0x40078000,len:15452
+[ros2_control_node-2] ho 0 tail 12 room 4
+[ros2_control_node-2] load:0x40080400,len:3840
+[ros2_control_node-2] entry 0x4008064c
+[ros2_control_node-2] [0;32mI (29) boot: ESP-IDF v5.0-dirty 2nd stage bootloader[0m
+[ros2_control_node-2] [0;32mI (29) boot: compile time 01:06:29[0m
+[ros2_control_node-2] [0;32mI (29) boot: chip revision: v3.1[0m
+[ros2_control_node-2] [0;32mI (32) boot_comm: chip rev
+[ros2_control_node-2] [WARN] [1715165419.829706677] [ezmower_hardware]: ision: 3, min. bootloader chip revision: 0[0m
+[ros2_control_node-2] [0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[ros2_control_node-2] [0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[ros2_control_node-2] [0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[ros2_control_node-2] [0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[ros2_control_node-2] [0;32mI (59) boot: Partition Table:[0m
+[ros2_control_node-2] [0;32mI (62) boot: ## Label            Usage          Type ST Offset 
+[ros2_control_node-2] [WARN] [1715165419.863004429] [ezmower_hardware]:   Length[0m
+[ros2_control_node-2] [0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[ros2_control_node-2] [0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[ros2_control_node-2] [0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[ros2_control_node-2] [0;32mI (92) boot: End of partition table[0m
+[ros2_control_node-2] [0;32mI (96) boot_comm: chip revision: 3, min. application 
+[ros2_control_node-2] [WARN] [1715165419.896300921] [ezmower_hardware]: chip revision: 0[0m
+[ros2_control_node-2] [0;32mI (103) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0e7d4h ( 59348) map[0m
+[ros2_control_node-2] [0;32mI (133) esp_image: segment 1: paddr=0001e7fc vaddr=3ffb0000 size=0181ch (  6172) load[0m
+[ros2_control_node-2] [0;32mI (136) esp_image: segment 2: paddr=00020020 va
+[ros2_control_node-2] [WARN] [1715165419.929820692] [ezmower_hardware]: ddr=400d0020 size=23cc4h (146628) map[0m
+[ros2_control_node-2] 
+[ros2_control_node-2] [WARN] [1715165419.963024129] [ezmower_hardware]: [0;32mI (192) esp_image: segment 3: paddr=00043cec vaddr=3ffb181c size=00efch (  3836) load[0m
+[ros2_control_node-2] [0;32mI (194) esp_image: segment 4: paddr=00044bf0 vaddr=40080000 size=0d348h ( 54088) load[0m
+[ros2_control_node-2] 
+[ros2_control_node-2] [WARN] [1715165419.996394159] [ezmower_hardware]: [0;32mI (220) esp_image: segment 5: paddr=00051f40 vaddr=50000000 size=00010h (    16) load[0m
+[ros2_control_node-2] [0;32mI (227) boot: Loaded app from partition at offset 0x10000[0m
+[ros2_control_node-2] [0;32mI (227) boot: Disabling RNG early entropy source...[0m
+[ros2_control_node-2] [0;32mI (240) cpu_start: Pro cpu up.[0m
+[ros2_control_node-2] [0;32mI (240) cpu_start: Star
+[ros2_control_node-2] [WARN] [1715165420.029732430] [ezmower_hardware]: ting app cpu, entry point is 0x400811ac[0m
+[ros2_control_node-2] [0;32mI (226) cpu_start: App cpu up.[0m
+[ros2_control_node-2] [0;32mI (255) cpu_start: Pro cpu start user code[0m
+[ros2_control_node-2] [0;32mI (255) cpu_start: cpu freq: 160000000 Hz[0m
+[ros2_control_node-2] [0;32mI (255) cpu_start: Application information:[0m
+[ros2_control_node-2] [0;32mI (259) cpu_start: Project name:     project-name[0m
+[ros2_control_node-2] [0;32mI (265) cpu_start: App version:
+[ros2_control_node-2] [WARN] [1715165420.062991793] [ezmower_hardware]:       ef0ed6f-dirty[0m
+[ros2_control_node-2] [0;32mI (270) cpu_start: Compile time:     Apr 27 2024 11:56:12[0m
+[ros2_control_node-2] [0;32mI (276) cpu_start: ELF file SHA256:  4dd69756c5a9e3a1...[0m
+[ros2_control_node-2] [0;32mI (282) cpu_start: ESP-IDF:          v5.0-dirty[0m
+[ros2_control_node-2] [0;32mI (288) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[ros2_control_node-2] [0;32mI (295) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[ros2_control_node-2] [0;
+[ros2_control_node-2] [WARN] [1715165420.096407230] [ezmower_hardware]: 32mI (301) heap_init: At 3FFB30C0 len 0002CF40 (179 KiB): DRAM[0m
+[ros2_control_node-2] [0;32mI (307) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[ros2_control_node-2] [0;32mI (313) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[ros2_control_node-2] [0;32mI (320) heap_init: At 4008D348 len 00012CB8 (75 KiB): IRAM[0m
+[ros2_control_node-2] [0;32mI (327) spi_flash: detected chip: generic[0m
+[ros2_control_node-2] [0;32mI (331) spi_flash: flash io: dio[0m
+[ros2_control_node-2] [0;33
+[ros2_control_node-2] [WARN] [1715165420.129716890] [ezmower_hardware]: mW (335) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[ros2_control_node-2] [0;32mI (349) cpu_start: Starting scheduler on PRO CPU.[0m
+[ros2_control_node-2] [0;32mI (0) cpu_start: Starting scheduler on APP CPU.[0m
+[ros2_control_node-2] [0;32mI (0) L298N Driver: Configuring GPIO pads for direction.[0m
+[ros2_control_node-2] [0;32mI (10) gpio: GPIO[4]| InputEn: 0| Outp
+[ros2_control_node-2] [WARN] [1715165420.163060160] [ezmower_hardware]: utEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (20) gpio: GPIO[5]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (20) gpio: GPIO[16]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (30) gpio: GPIO[17]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 [0m
+[ros2_control_node-2] [0
+[ros2_control_node-2] [WARN] [1715165420.196347949] [ezmower_hardware]: ;32mI (40) gpio: GPIO[18]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (50) gpio: GPIO[19]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (60) gpio: GPIO[21]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (70) gpio: GPIO[22]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 
+[ros2_control_node-2] [WARN] [1715165420.229703886] [ezmower_hardware]: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (518) MAIN: Motor drive service started.[0m
+[ros2_control_node-2] [0;32mI (528) gpio: GPIO[36]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (528) gpio: GPIO[25]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (538) gpio: GPIO[39]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| P
+[ros2_control_node-2] [WARN] [1715165420.262927712] [ezmower_hardware]: ulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (548) gpio: GPIO[33]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (558) gpio: GPIO[34]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (568) gpio: GPIO[32]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[ros2_control_node-2] [0;32mI (578) MAIN: Sonar samplin
+[ros2_control_node-2] [WARN] [1715165420.296317205] [ezmower_hardware]: g service started.[0m
+[ros2_control_node-2] [0;32mI (588) mpu9250: Initializating MPU9250[0m
+[ros2_control_node-2] 
+[ros2_control_node-2] [WARN] [1715165420.403487628] [ezmower_hardware]: 
+[ros2_control_node-2] [WARN] [1715165420.404799761] [ezmower_hardware]: [0;32mI (
+[ros2_control_node-2] [WARN] [1715165420.406529969] [ezmower_hardware]: 738) mpu9250: Enabling 
+[ros2_control_node-2] [WARN] [1715165420.429462306] [ezmower_hardware]: magnetometer[0m
+[ros2_control_node-2] 
+[ros2_control_node-2] [WARN] [1715165420.633666921] [ezmower_hardware]: 
+[ros2_control_node-2] [WARN] [1715165420.635066906] [ezmower_hardware]: [0;32mI 
+[ros2_control_node-2] [WARN] [1715165420.636633225] [ezmower_hardware]: (968) mpu9250: Magnetom
+[ros2_control_node-2] [WARN] [1715165420.638079155] [ezmower_hardware]: eter enable
+[ros2_control_node-2] [WARN] [1715165420.639358325] [ezmower_hardware]: d[0m
+[ros2_control_node-2] [0;32mI (968) m
+[ros2_control_node-2] [WARN] [1715165420.640613217] [ezmower_hardware]: pu9250: MPU
+[ros2_control_node-2] [WARN] [1715165420.662882663] [ezmower_hardware]: 9250:[0m
+[ros2_control_node-2] [0;32mI (968) mpu9250: --> i2c bus: 0x00[0m
+[ros2_control_node-2] [0;32mI (968) mpu9250: --> Device address: 0x68[0m
+[ros2_control_node-2] [0;32mI (968) mpu9250: --> Device ID: 0x71[0m
+[ros2_control_node-2] [0;32mI (968) mpu9250: --> initialised: Yes[0m
+[ros2_control_node-2] [0;32mI (978) mpu9250: --> BYPASS enabled:
+[ros2_control_node-2] [WARN] [1715165420.696422823] [ezmower_hardware]:  Yes[0m
+[ros2_control_node-2] [0;32mI (978) mpu9250: --> SleepEnabled Mode: Off[0m
+[ros2_control_node-2] [0;32mI (988) mpu9250: --> i2c Master Mode: Disabled[0m
+[ros2_control_node-2] [0;32mI (988) mpu9250: --> Power Management (0x6B, 0x6C):[0m
+[ros2_control_node-2] [0;32mI (998) mpu9250:   --> Clock Source: 1 1 (Auto selects the best available clock source)[0m
+[ros2_control_node-2] [0;32mI (1008) mpu9250:   --> Accel enabled (x, y, z): (Yes, Yes, Yes)[0m
+[ros2_control_node-2] [0;32mI (1008) mpu9250:  
+[ros2_control_node-2] [WARN] [1715165420.729854390] [ezmower_hardware]:  --> Gyro enabled (x, y, z): (Yes, Yes, Yes)[0m
+[ros2_control_node-2] [0;32mI (1018) mpu9250: Accelerometer:[0m
+[ros2_control_node-2] [0;32mI (1028) mpu9250: --> Full Scale Range (0x1C): ±4g (1)[0m
+[ros2_control_node-2] [0;32mI (1028) mpu9250: --> Scalar: 1/8192.000000[0m
+[ros2_control_node-2] [0;32mI (1038) mpu9250: --> Calibration:[0m
+[ros2_control_node-2] [0;32mI (1038) mpu9250:   --> Offset: [0m
+[ros2_control_node-2] [0;32mI (1038) mpu9250:     --> x: 0.037232[0m
+[ros2_control_node-2] [0;32mI (1048) mpu
+[ros2_control_node-2] [WARN] [1715165420.763062790] [ezmower_hardware]: 9250:     --> y: 0.028771[0m
+[ros2_control_node-2] [0;32mI (1048) mpu9250:     --> z: -0.196840[0m
+[ros2_control_node-2] [0;32mI (1058) mpu9250:   --> Scale: [0m
+[ros2_control_node-2] [0;32mI (1058) mpu9250:     --> x: (1.007649, -0.983117)[0m
+[ros2_control_node-2] [0;32mI (1068) mpu9250:     --> y: (1.015083, -0.991380)[0m
+[ros2_control_node-2] [0;32mI (1068) mpu9250:     --> z: (0.904143, -1.119431)[0m
+[ros2_control_node-2] [0;32mI (1078) mpu9250: Gyroscope:[0m
+[ros2_control_node-2] [0;32mI (1078) mpu9250:
+[ros2_control_node-2] [WARN] [1715165420.796359449] [ezmower_hardware]:  --> Full Scale Range (0x1B): +250 dps (0)[0m
+[ros2_control_node-2] [0;32mI (1088) mpu9250: --> Scalar: 1/131.000000[0m
+[ros2_control_node-2] [0;32mI (1088) mpu9250: --> Bias Offset:[0m
+[ros2_control_node-2] [0;32mI (1098) mpu9250:   --> x: -3.542834[0m
+[ros2_control_node-2] [0;32mI (1098) mpu9250:   --> y: -0.251411[0m
+[ros2_control_node-2] [0;32mI (1098) mpu9250:   --> z: -0.036511[0m
+[ros2_control_node-2] [0;32mI (1108) ak8963: Magnetometer (Compass):[0m
+[ros2_control_node-2] [0;32mI (1108) ak8963: --> i2c address: 0
+[ros2_control_node-2] [WARN] [1715165420.829820331] [ezmower_hardware]: x00[0m
+[ros2_control_node-2] [0;32mI (1118) ak8963: --> initialised: true[0m
+[ros2_control_node-2] [0;32mI (1118) ak8963: --> Device ID: 0x48[0m
+[ros2_control_node-2] [0;32mI (1128) ak8963: --> Mode: 0x06 (Continuous measurement mode 2: 100Hz)[0m
+[ros2_control_node-2] [0;32mI (1128) ak8963: --> ASA Scalars:[0m
+[ros2_control_node-2] [0;32mI (1138) ak8963:   --> x: 1.203125[0m
+[ros2_control_node-2] [0;32mI (1138) ak8963:   --> y: 1.203125[0m
+[ros2_control_node-2] [0;32mI (1148) ak8963:   --> z: 1.164062[0m
+[ros2_control_node-2] 
+[ros2_control_node-2] [WARN] [1715165420.863029953] [ezmower_hardware]: [0;32mI (1148) ak8963: --> Offset:[0m
+[ros2_control_node-2] [0;32mI (1148) ak8963:   --> x: 64.968750[0m
+[ros2_control_node-2] [0;32mI (1158) ak8963:   --> y: -278.523438[0m
+[ros2_control_node-2] [0;32mI (1158) ak8963:   --> z: 109.421875[0m
+[ros2_control_node-2] [0;32mI (1168) ak8963: --> Scale:[0m
+[ros2_control_node-2] [0;32mI (1168) ak8963:   --> x: 0.938980[0m
+[ros2_control_node-2] [0;32mI (1168) ak8963:   --> y: 0.974819[0m
+[ros2_control_node-2] [0;32mI (1178) ak8963:   --> z: 1.
+[ros2_control_node-2] [WARN] [1715165420.896353464] [ezmower_hardware]:  �?
+[ros2_control_node-2] [WARN] [1715165420.929466475] [ezmower_hardware]: >#### �?r�A�9�?��m;������s?��#>#### �?
+[ros2_control_node-2] [WARN] [1715165420.962828524] [ezmower_hardware]: ### 
+[ros2_control_node-2] [WARN] [1715165420.996136683] [ezmower_hardware]: ### 
+[ros2_control_node-2] [WARN] [1715165421.029539898] [ezmower_hardware]: ### 
+[ros2_control_node-2] [WARN] [1715165421.062822928] [ezmower_hardware]: �?�ɼ@�
+[ros2_control_node-2] [WARN] [1715165421.096153421] [ezmower_hardware]: G�?~�^�P�i���H?�j�#### 
+[ros2_control_node-2] [WARN] [1715165421.129490210] [ezmower_hardware]: r�?���gc�>a9��#### 
+[ros2_control_node-2] [WARN] [1715165421.162850554] [ezmower_hardware]: �x�>�x=#### 
+[ros2_control_node-2] [WARN] [1715165421.196167973] [ezmower_hardware]: L7�6��#### 
+[ros2_control_node-2] [WARN] [1715165421.229498633] [ezmower_hardware]: �	�>;�Ǿ#### 
+[ros2_control_node-2] [WARN] [1715165421.262838588] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165421.296160211] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165421.329493296] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165421.362761289] [ezmower_hardware]: .�A`w�F�=�<�#### 
+[ros2_control_node-2] [WARN] [1715165421.396099930] [ezmower_hardware]: \�AЌB�D�=�<#### 
+[ros2_control_node-2] [WARN] [1715165421.429615979] [ezmower_hardware]: �A,z7�ͧ�>SfϾ#### 
+[ros2_control_node-2] [WARN] [1715165421.462900897] [ezmower_hardware]: >�#### 
+[ros2_control_node-2] [WARN] [1715165421.496107741] [ezmower_hardware]: >X�\�#### 
+[ros2_control_node-2] [WARN] [1715165421.529521290] [ezmower_hardware]: >�>#### 
+[ros2_control_node-2] [WARN] [1715165421.563013079] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165421.596118553] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165421.629627028] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165421.662723446] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165421.696161532] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165421.729550710] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165421.762830406] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165421.796160103] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165421.829500521] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165421.862765847] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165421.896151414] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165421.929507537] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165421.962890382] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165421.996311078] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165422.029478385] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165422.062993138] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165422.096299705] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165422.129497105] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165422.162833579] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165422.196107960] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165422.229505416] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165422.262874798] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165422.296184309] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165422.329486469] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165422.362891647] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165422.396360659] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165422.429475873] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165422.462910255] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165422.496369359] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165422.529616944] [ezmower_hardware]:  
+[ros2_control_node-2] [WARN] [1715165422.562985900] [ezmower_hardware]:  
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[robot_state_publisher-1] [INFO] [1715165422.589513005] [rclcpp]: signal_handler(signum=2)
+[ekf_node-3] [INFO] [1715165422.589514431] [rclcpp]: signal_handler(signum=2)
+[ros2_control_node-2] [INFO] [1715165422.590130377] [rclcpp]: signal_handler(signum=2)
+[ros2_control_node-2] [ERROR] [1715165422.720448174] [imu_broadcaster]: Unable to start transition 7 from current state shuttingdown: Could not publish transition: publisher's context is invalid, at ./src/rcl/publisher.c:423, at ./src/rcl_lifecycle.c:368
+[ros2_control_node-2] [WARN] [1715165422.720514322] [rclcpp_lifecycle]: Shutdown error in destruction of LifecycleNode: final state(active)
+[ros2_control_node-2] [ERROR] [1715165422.745711572] [range_sensor_broadcaster_right]: Unable to start transition 7 from current state shuttingdown: Could not publish transition: publisher's context is invalid, at ./src/rcl/publisher.c:423, at ./src/rcl_lifecycle.c:368
+[ros2_control_node-2] [WARN] [1715165422.745769424] [rclcpp_lifecycle]: Shutdown error in destruction of LifecycleNode: final state(active)
+[ros2_control_node-2] [ERROR] [1715165422.769351095] [joint_broadcaster]: Unable to start transition 7 from current state shuttingdown: Could not publish transition: publisher's context is invalid, at ./src/rcl/publisher.c:423, at ./src/rcl_lifecycle.c:368
+[ros2_control_node-2] [WARN] [1715165422.769411299] [rclcpp_lifecycle]: Shutdown error in destruction of LifecycleNode: final state(active)
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[ERROR] [robot_state_publisher-1]: process has died [pid 2395, exit code -2, cmd '/opt/ros/iron/lib/robot_state_publisher/robot_state_publisher --ros-args --params-file /tmp/launch_params_u9htbkfz'].
+[ERROR] [ekf_node-3]: process has died [pid 2411, exit code -2, cmd '/opt/ros/iron/lib/robot_localization/ekf_node --ros-args --params-file /home/robot/ros2_capstone/install/ezmower_robot/share/ezmower_robot/config/localization.yaml'].
+[ERROR] [ros2_control_node-2]: process has died [pid 2409, exit code -2, cmd '/opt/ros/iron/lib/controller_manager/ros2_control_node --ros-args --params-file /home/robot/ros2_capstone/install/ezmower_robot/share/ezmower_robot/config/my_controllers.yaml --params-file /tmp/launch_params_ycxnro99 -r /controller_manager/robot_description:=/robot_description'].

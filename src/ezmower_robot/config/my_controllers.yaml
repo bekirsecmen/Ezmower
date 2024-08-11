@@ -1,0 +1,83 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 30 # Hardware poll rate 
+    use_sim_time: false
+
+    mobile_base_controller:
+      type: diff_drive_controller/DiffDriveController
+
+    joint_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    range_sensor_broadcaster_left:
+      type: range_sensor_broadcaster/RangeSensorBroadcaster
+
+    range_sensor_broadcaster_center:
+      type: range_sensor_broadcaster/RangeSensorBroadcaster
+
+    range_sensor_broadcaster_right:
+      type: range_sensor_broadcaster/RangeSensorBroadcaster
+    imu_broadcaster:
+      type: imu_sensor_broadcaster/IMUSensorBroadcaster
+
+
+mobile_base_controller:
+  ros__parameters:
+    use_sim_time: false
+    publish_rate: 50.0
+
+    base_frame_id: base_link
+
+    left_wheel_names: ['left_wheel_joint']
+    right_wheel_names: ['right_wheel_joint']
+    wheel_separation: 0.425
+    wheel_separation_multiplier : 0.90
+    wheel_radius: 0.0625
+    left_wheel_radius_multiplier : 0.99
+    right_wheel_radius_multiplier : 0.99
+    enable_odom_tf:  false
+    use_stamped_vel: false
+    pose_covariance_diagonal: [0.001, 0.001, 999.9, 999.9, 999.9, 0.01] # x y z    r p y 
+    twist_covariance_diagonal: [999.9, 999.9, 999.9, 999.9, 999.9, 0.01] # linear x y z ang x y z 
+    linear.x.has_velocity_limits: true
+    linear.x.min_velocity : -0.164 
+    linear.x.max_velocity: 0.164 # m/s
+
+range_sensor_broadcaster_left:
+  ros__parameters:
+    sensor_name : ezmower_range_left
+    frame_id : range_sensor_left_link
+    radiation_type : 0
+    field_of_view : 0.36
+    min_range : 0.05
+    max_range : 3.0
+    variance : 0.2
+
+range_sensor_broadcaster_center:
+  ros__parameters:
+    sensor_name : ezmower_range_center
+    frame_id : range_sensor_center_link
+    radiation_type : 0
+    field_of_view : 0.36
+    min_range : 0.05
+    max_range : 3.0
+    variance : 0.2
+
+range_sensor_broadcaster_right:
+  ros__parameters:
+    sensor_name : ezmower_range_right
+    frame_id : range_sensor_right_link
+    radiation_type : 0
+    field_of_view : 0.36
+    min_range : 0.05
+    max_range : 3.0
+    variance : 0.2
+
+imu_broadcaster: 
+  ros__parameters:
+    sensor_name : ezmower_imu
+    frame_id : chasis
+    static_covariance_orientation : [0.001, 0.0, 0.0,     0.0, 0.001, 0.0,     0.0, 0.0, 0.015] # r p y
+    static_covariance_angular_velocity : [0.001, 0.0, 0.0,  0.0, 0.001, 0.0,   0.0, 0.0, 0.15] #z ang vel 
+    # static_covariance_linear_acceleration : [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] # not used 
+    

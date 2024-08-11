@@ -1,0 +1,9 @@
+<library path="ezmower_hardware">
+    <class name="ezmower_hardware/ezmower_hw_if"
+            type = "ezmower_hardware::ezmower_hw_if"
+            base_class_type="hardware_interface::SystemInterface">
+        <description>
+        Hardware interface for the EZMower Robot.
+        </description>
+    </class>
+</library>

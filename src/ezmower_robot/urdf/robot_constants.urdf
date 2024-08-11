@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+<xacro:property name="package_name" value="robot_base" />
+
+<!-- CHASIS CONSTANTS -->
+<xacro:property name="chasis_width" value="0.2" />
+<xacro:property name="chasis_height" value="0.23" />
+<xacro:property name="chasis_depth" value="0.1" />
+<xacro:property name="chasis_mass" value="0.7" />
+
+<!-- MOTOR MOUNT CONSTANTS -->
+<xacro:property name="motor_mount_width" value="0.048" />
+<xacro:property name="motor_mount_height" value="0.13" />
+<xacro:property name="motor_mount_depth" value="0.046" />
+<xacro:property name="motor_mount_mass" value="0.250" />
+<!-- WHEEL CONSTANTS -->
+<xacro:property name="drive_wheel_thickness" value="0.056" />
+<xacro:property name="drive_wheel_radius" value="0.0625" />
+<xacro:property name="drive_wheel_perimeter" value="${2 * pi * wheel_radius}" />
+<xacro:property name="drive_wheel_mass" value="0.100" />
+<xacro:property name="caster_wheel_radius" value="${drive_wheel_radius}" />
+<xacro:property name="caster_wheel_mass" value="0.100" />
+
+<!-- OFFSETS -->
+
+<!-- How much the drive axis is offseted from the chasis origin on the x axis -->
+<xacro:property name="drive_axis_x_offset" value="-0.12" /> 
+
+<!-- How much the motor mounts are offseted from the  chasis origin on the x,y and z axis  -->
+<xacro:property name="motor_mount_x_offset" value="-0.08" /> 
+<xacro:property name="motor_mount_y_offset" value="0.10" /> 
+<xacro:property name="motor_mount_z_offset" value="-0.05" /> 
+
+<!-- How much the caster wheel mounts are offseted from the  chasis origin on the x,y and z axis -->
+<xacro:property name="caster_wheel_mount_x_offset" value="0.08" /> 
+<xacro:property name="caster_wheel_mount_y_offset" value="0.10" /> 
+<xacro:property name="caster_wheel_mount_z_offset" value="-0.015" /> 
+<!-- We do not add collision to the caster wheel mounts -->
+
+<!-- How much the drive wheels are offseted from  chasis origin on the x,y,z axises -->
+<xacro:property name="drive_wheel_x_offset" value="-0.04" /> 
+<xacro:property name="drive_wheel_y_offset" value="${motor_mount_y_offset + motor_mount_width}" /> 
+<xacro:property name="drive_wheel_z_offset" value="${motor_mount_z_offset / 2}" /> 
+<!-- How much the caster wheels are offseted from  chasis origin on the x,y,z axises -->
+<xacro:property name="caster_wheel_x_offset" value="0.08" /> 
+<xacro:property name="caster_wheel_y_offset" value="${drive_wheel_y_offset}" /> 
+<xacro:property name="caster_wheel_z_offset" value="${drive_wheel_z_offset}" /> 
+
+<!-- DERIVED PROPERTIES -->
+<xacro:property name="drive_axis_total_length" value="${chasis_width + (2 * motor_mount_width)}" />  <!-- wheel to wheel length -->
+
+
+
+</robot>

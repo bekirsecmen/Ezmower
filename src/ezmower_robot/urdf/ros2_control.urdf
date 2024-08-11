@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="capstone_robot">
+    <xacro:include filename="robot_constants.urdf" />
+    <ros2_control name="RealRobot" type="system">
+        <hardware>
+            <plugin>ezmower_hardware/ezmower_hw_if</plugin>
+            <param name="left_wheel_name">left_wheel_joint</param>
+            <param name="right_wheel_name">right_wheel_joint</param>
+            <param name="loop_rate">30</param>
+            <param name="port_name">/dev/serial/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1.2:1.0-port0</param>
+            <param name="baud_rate">115200</param>
+            <param name="enc_counts_per_rev">70</param>
+            <param name="port_block_timeout_ms">500</param>
+            <param name="connection_timeout_ms">5000</param>
+            <param name="imu_sensor_name">ezmower_imu</param>
+            <param name="sonar_sensor_left_name">ezmower_range_left</param>
+            <param name="sonar_sensor_center_name">ezmower_range_center</param>
+            <param name="sonar_sensor_right_name">ezmower_range_right</param>
+            <param name="kp">0.6</param>
+            <param name="ki">0.3</param>
+            <param name="kd">0.05</param>
+
+        </hardware>
+        <joint name="left_wheel_joint">
+            <command_interface name="velocity">
+                <param name="min">-10</param>
+                <param name="max">10</param>
+            </command_interface>
+            <state_interface name="position" />
+        </joint>
+        <joint name="right_wheel_joint">
+            <command_interface name="velocity">
+                <param name="min">-10</param>
+                <param name="max">10</param>
+            </command_interface>
+            <state_interface name="position" />
+        </joint>
+    </ros2_control>
+
+
+
+</robot>
